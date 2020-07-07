@@ -26,12 +26,13 @@ search: true
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Amsterdam # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -87,7 +88,24 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SjoerdV"
 
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
 defaults:
+  - scope:
+      path: ""
+    values:
+      sidebar:
+        - title: "Role"
+          # image: /assets/images/Logo.png
+          # image_alt: "logo"
+          text: "Microsoft Cloud Productivity & BPM Consultant"
+        - title: "Responsibilities"
+          text: "Giving it all to improve continuously."
   # _posts
   - scope:
       path: ""
@@ -106,6 +124,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 category_archive:
   type: liquid
