@@ -26,10 +26,10 @@ search: true
 
 repository  : "sjoerdv/sjoerdv.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
 comments:
-  provider  : "staticman_v2"
-  staticman:
-    branch    : "master"
-    endpoint  : "https://api.staticman.net/v3/entry/github/"
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
 
 # Build settings
 markdown: kramdown
