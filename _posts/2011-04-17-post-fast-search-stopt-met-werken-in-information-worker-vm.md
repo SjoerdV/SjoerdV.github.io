@@ -9,6 +9,7 @@ tags:
   - FAST Search
   - Information Worker VM
   - Virtualization
+comments: false
 ---
 De 'FAST Search for Sharepoint 2010' installatie in de Information Worker VM's verloopt na een jaar. Er zijn weinig concrete meldingen in het eventlog dat er iets mis is. Wat wel opvalt is dat een full crawl op de FAST index nooit meer stopt.
 

@@ -7,6 +7,7 @@ tags:
   - SharePoint
   - Apps
   - Store
+comments: false  
 ---
 I would like to repeat this post every quarter especially as more and better apps will be available is het SharePoint Store. In this post some of the Apps I think deserve some attention.
 
