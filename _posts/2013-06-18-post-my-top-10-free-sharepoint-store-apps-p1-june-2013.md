@@ -1,0 +1,113 @@
+---
+title: "My Top-10 Free SharePoint Store Apps - P1 - June 2013"
+date: 2013-06-18 21:26
+categories:
+  - blog
+tags:  
+  - SharePoint
+  - Apps
+  - Store
+---
+I would like to repeat this post every quarter especially as more and better apps will be available is het SharePoint Store. In this post some of the Apps I think deserve some attention.
+
+The main reason for writing this post is for you to know what's available out of the box and what is provided by some great 'SharePoint community enthusiasts' and how to use their stuff in the right way. By using these Apps you'll find that you have more time on your hands for creating real SharePoint business value for your enterprise. Let get down it...
+
+1. ![](/assets/images/061813_1933_mytop10free1.png)
+
+    | Name | Nintex Workflow Online (PREVIEW) |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | Cloud Hosted |
+    | **Release Date** | July 2012 |
+    | **Category** | Workflow & Process Management |
+    | **Description** | Amazing App that lets a business user/process analyst lay out critical business processes in a visual manner and lets a SharePoint consultant automate processes efficiently.Note that the 'On Premise' version has more functionality at this time. |
+    | [**App WebSite**](https://workflowdesigner.nintex.com/PlatformPreview/support.aspx) ||
+
+1. ![](/assets/images/061813_1933_mytop10free2.png)
+
+    | Name | Important Messages |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | November 2012 |
+    | **Category** | Communication |
+    | **Description** | Lets you configure an alert list with three distinct categories and style. This App also has an App-part which you can place on a page of your choosing.*Additional styling is possible.* |
+    | [**App WebSite**](http://www.habaneroconsulting.com/sharepointapps) ||
+
+1. ![](/assets/images/061813_1933_mytop10free3.png)
+
+    | Name | Corporate News App |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | October 2012 |
+    | **Category** | Communication |
+    | **Description** | Has three useful App-parts and corresponding configuration lists that shows news from and for your organization as: a) Carousel News b) Horizontal News c) Micro News.*Additional styling is possible, the App part supports a custom CSS file to be loaded.* |
+    | [**App WebSite**](https://corporatenewsapp.codeplex.com/) ||
+
+1. ![](/assets/images/061813_1933_mytop10free4.png)
+
+    | Name | User Redirect |
+    | --- |  --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | March 2013 |
+    | **Category** | IT/Admin |
+    | **Description** | Allows for a simple redirect within the same SharePoint Web Application. Very useful to guide people to the right place of your portal or aiding people entering 'dead corners'.Watch out for setting the redirect timer below 5000ms as you might not be able to get the page in edit mode fast enough.If you do get stuck however Use the '?content=1' trick to close the webpart temporarily and add it to the page again when you are in edit mode. |
+    | [**App WebSite**](http://www.sr1development.co.uk/userredirect.php) ||
+
+1. ![](/assets/images/061813_1933_mytop10free5.png)
+
+    | Name | Url Shortener Lite |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | April 2013 |
+    | **Category** | Communication, File Converters + Viewers, Productivity |
+    | **Description** | Gives you a nice and handy link in the "Share & Track" group of the ribbon called "Short Url". This link will be available for all individual documents in a document library. When one clicks the button a unique link and QR code is generated for the document.Pay attention that the person pressing the button in the ribbon will need to have an active internet connection to generate the URL's. If you are behind a corporate firewall you are out of luck. |
+    | [**App WebSite**](https://rjeshllc-public.sharepoint.com/Pages/UrlShortnerLite.aspx) ||
+
+1. ![](/assets/images/061813_1933_mytop10free6.png)
+
+    | Name | Onebit Quick Poll |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | April 2013 |
+    | **Category** | Communication, Content Management, Social |
+    | **Description** | Every Intranet needs a poll, right? This App-part will make it very easy and it's free. So start polling. If your in need of an more advance survey tool try Onebit Survey Master Lite (Cloud Hosted, 10 question and 50 response limits though) |
+    | [**App WebSite**](https://www.onebitsoftware.net/Products/Tools/QuickPoll) ||
+
+1. ![](/assets/images/061813_1933_mytop10free7.png)
+
+    | Name | MyFAQ |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | October 2012 |
+    | **Category** | Content Management |
+    | **Description** | A frequently asked questions list is a frequently heard request in most SharePoint assignments. As this is really easy to achieve using out of the box configuration, this App stands out in its ability to let the user control what the list looks like without resorting to some nasty item styling or display template creation. It does need some work for it lacks an App-part and some basic editing controls.*Additional styling is possible.* |
+    | [**App WebSite**](http://edgeqsupport.edgeq.com/2012/09/myfaq.html) ||
+
+1. ![](/assets/images/061813_1933_mytop10free8.png)
+
+    | Name | Odata QueryBuilder |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | April 2013 |
+    | **Category** | IT/Admin |
+    | **Description** | An excellent tool for you 'devs' out there to get an ODATA query string by selecting site components in a straight forward UI. The tool uses the SharePoint REST API under the hood. |
+    | [**App WebSite**](http://www.arthurgraus.nl/Pages/ODATAQuerybuilder.aspx) ||
+
+1. ![](/assets/images/061813_1933_mytop10free9.png)
+
+    | Name | SPoodle Scheduling |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | March 2013 |
+    | **Category** | Productivity |
+    | **Description** | If you like Doodle (or Datumprikker.nl for Dutch folks) you will like this App. Enter Title and duration and select a few desired/possible start dates/times. Than Share the event with people from you organization using the SharePoint people picker. They will receive an email, allowing them to vote on the start dates/times.In my observation there is no administration interface available so you better bookmark the Survey link once an event is generated. |
+    | [**App WebSite**](http://www.free-com.at/) ||
+
+1. ![](/assets/images/061813_1933_mytop10free10.png)
+
+    | Name | Google Maps for SharePoint |
+    | --- |  --- |
+    | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted |
+    | **Release Date** | February 2013 |
+    | **Category** | Travel + Navigation |
+    | **Description** | Visualize your office locations and give some interaction possibilities. Unlike many of the other Location/Maps Apps this one comes with an App part to add the map to any page you desire. |
+    | [**App WebSite**](http://www.tylercranston.com/) ||
