@@ -60,7 +60,7 @@ plugins:
 
 author:
   name   : "SjoerdV"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/logo.png"
   bio    : "Maybe I'm just like my father, too bold..."
   links:
     - label: "Website"
