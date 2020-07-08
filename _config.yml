@@ -29,7 +29,7 @@ comments:
   provider  : "staticman_v2"
   staticman:
     branch    : "master"
-    endpoint  : "https://api.staticman.net/v3/entry/github"
+    endpoint  : "https://api.staticman.net/v3/entry/github/"
 
 # Build settings
 markdown: kramdown
