@@ -6,8 +6,7 @@ categories:
 tags:  
   - SharePoint
   - Apps
-  - Store
-comments: false  
+  - Store 
 ---
 This post is the October 2013 update to my previous post from June 2013. I would like to repeat this post every quarter or so especially as more and better apps will be available in het SharePoint Store. In this post some of the Apps I think deserve some attention are listed with a short recommendation and description.
 
