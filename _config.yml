@@ -25,11 +25,16 @@ minimal_mistakes_skin: default
 search: true
 
 repository  : "sjoerdv/sjoerdv.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+#comments:
+#  provider: "utterances"
+#  utterances:
+#    theme: "github-light" # "github-dark"
+#    issue_term: "pathname"
 comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
+  provider: "staticman_v2"
+  staticman:
+    branch: "master"
+    endpoint: https://fhq-staticman-p.azurewebsites.net/v3/entry/github/
 
 # Build settings
 markdown: kramdown
