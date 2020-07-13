@@ -77,7 +77,7 @@ Note: You might consider dropping the OneDrive slider one nudge to *'Only People
 
 ## Next time
 
-The next blog in this series will explain a modern way of *applying* your selected configuration in a controlled manner and offer a 'Starter Kit' of sorts which you can use in your organization.
+The next blog in this series will explain a modern way of *applying* your selected configuration in a controlled manner and offer a 'Starter Kit' of sorts which you can use in your organization to deploy Microsoft 365 SaaS configuration.
 
 [^1]: if you have at least some Azure AD Premium Plan 2 licenses available
 
