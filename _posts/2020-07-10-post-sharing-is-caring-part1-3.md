@@ -3,7 +3,7 @@ title: "Sharing is caring! Or taking your next step toward better SaaS Governanc
 date: 2020-07-13T10:00:00+02:00
 last_modified_at: 2020-07-13T10:00:00+02:00
 header:
-  image: /assets/images/2020-07-11-01-08-42.png
+  # image: /assets/images/2020-07-11-01-08-42.png
   og_image: /assets/images/2020-07-11-01-08-42.png
 categories:
   - blog
