@@ -24,6 +24,9 @@ github_username: SjoerdV
 minimal_mistakes_skin: default
 search: true
 
+twitter:
+  username: "sjoerddevalk"
+
 repository  : "sjoerdv/sjoerdv.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
 #comments:
 #  provider: "utterances"
