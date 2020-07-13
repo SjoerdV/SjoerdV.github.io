@@ -60,7 +60,7 @@ While leaving everything, as you got it: OOTB, is the most simple, speedy and go
 
 Good questions!
 
-Now, the images displayed on this page are of course not random. These settings represent what I, in my personal professional opinion, consider the best balance between security and usability for a large majority of organizations when External Sharing is concerned. These slider settings will:
+Now, the images displayed on this page are of course not random. These settings represent what I, in my personal professional opinion, consider the best balance between security and usability for a large majority of organizations when External Sharing is concerned. Of course I am interested in what you, the reader, think of this. In any case the proposed 'slider settings' will:
 
 - not allow any company employee to add external users to sites, teams, files or whatever company asset in the Microsoft 365 ecosystem directly
 - need you to adopt the much more manageable, secure and compliant [**Azure B2B**][3] concept, by giving select, trusted and responsible employees the much coveted 'Guest Inviter' Azure AD role. Trust me, they will love you for it!
