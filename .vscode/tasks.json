@@ -6,7 +6,7 @@
     {
       "label": "Serve",
       "type": "shell",
-      "command": "bundle exec jekyll serve",
+      "command": "bundle exec jekyll serve --drafts",
       "group": {
         "kind": "test",
         "isDefault": true
