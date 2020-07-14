@@ -2,8 +2,7 @@
 title: "Sharing is caring! Or taking your next step toward better SaaS Governance and External Identity Management for Microsoft 365 - Part 1 of 3"
 date: 2020-07-13T10:00:00+02:00
 last_modified_at: 2020-07-13T10:00:00+02:00
-header:
-  # image: /assets/images/2020-07-11-01-08-42.png
+header:  
   og_image: /assets/images/2020-07-11-01-08-42.png
 categories:
   - blog
@@ -82,10 +81,14 @@ Note: You might consider dropping the OneDrive slider one nudge to *'Only People
 
 The next blog in this series will explain a modern way of *applying* your selected configuration in a controlled manner and offer a 'Starter Kit' of sorts which you can use in your organization to deploy Microsoft 365 SaaS configuration.
 
+## Bibliography
+
 [^1]: if you have at least some Azure AD Premium Plan 2 licenses available
 
+<!-- Begin References -->
 [1]: https://admin.onedrive.com/?v=SharingSettings
 [2]: https://yourtenant-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/sharing
 [3]: https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b#easily-add-guest-users-in-the-azure-ad-portal
 [4]: https://support.microsoft.com/en-us/office/sign-up-for-teams-free-70aaf044-b872-4c32-ac47-362ab29ebbb1
 [5]: https://office365itpros.com/2020/04/30/office365-teams-power-growth/
+<!-- End References -->
