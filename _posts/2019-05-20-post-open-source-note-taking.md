@@ -2,7 +2,7 @@
 title: "Embarking on the 'Open Source Note Taking' journey"
 date: 2019-05-20T16:00:00+01:00
 last_modified_at: 2019-11-22T16:00:00+01:00
-header:  
+header:
   image: /assets/images/ConvertOneNote2MarkDown.png
   teaser: /assets/images/ConvertOneNote2MarkDown-th.png
   og_image: /assets/images/ConvertOneNote2MarkDown-th.png
