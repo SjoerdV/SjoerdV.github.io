@@ -2,6 +2,9 @@
 title: "Information Management. More important than ever."
 date: 2020-07-07T20:29:58+02:00
 last_modified_at: 2020-07-07T20:29:58+02:00
+header:
+  # image: /assets/images/header-banner.png
+  og_image: /assets/images/2020-07-07-20-39-29.png
 categories:
   - blog
 tags:
@@ -28,4 +31,14 @@ Check out this [LinkedIn post][1] if you require such a channel.
 
 ![SharePoint Online UI of a Teams Provisioning Too (TPT)](/assets/images/2020-07-07-20-39-29.png)
 
+<!-- Begin FootNotes -->
+
+<!-- End FootNotes -->
+
+<!-- Begin Abbreviations -->
+
+<!-- End Abbreviations -->
+
+<!-- Begin References -->
 [1]: https://www.linkedin.com/posts/activity-6686276239797428224-cOmU
+<!-- End References -->

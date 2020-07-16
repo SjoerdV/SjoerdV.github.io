@@ -2,7 +2,8 @@
 title: "Sharing is caring! Or taking your next step toward better SaaS Governance and External Identity Management for Microsoft 365 - Part 1 of 3"
 date: 2020-07-13T10:00:00+02:00
 last_modified_at: 2020-07-13T10:00:00+02:00
-header:  
+header:
+  # image: /assets/images/header-banner.png
   og_image: /assets/images/2020-07-11-01-08-42.png
 categories:
   - blog
@@ -19,19 +20,10 @@ tags:
   - Microsoft365
   - AzureDevOps
   - AzurePipelines
+  - PlatformOps
   - PlatformAsCode
   - StarterKit
 ---
-<!-- Begin Abbreviations -->
-*[MCAS]: Microsoft Cloud App Security
-*[OOTB]: Out-of-the-Box
-*[CA]: Conditional Access
-*[MFA]: Multi Factor Authentication
-*[SaaS]: Software as a Service, in this context the Microsoft 365 and Azure AD ecosystems are depicted
-*[PaC]: Platform as Code
-*[tenant]: A representation of an organization. It's a dedicated instance of shared Microsoft SaaS products offering Office 365 or Azure AD services.
-<!-- End Abbreviations -->
-
 This is the first part of a three part blog series, building on the premise to open up your Microsoft 365 Cloud Service tenant to External Parties. This first part will describe deciding on *the level* of 'external sharing' your organization cares to embrace.
 
 ## Security vs Usability
@@ -74,16 +66,30 @@ Some clear internal and external communications, change management, organization
 Note: Be aware that changes in the sliders depicted in this post (from relaxed to more restricted) might not be reflected on existing containers (SharePoint Sites / Personal Sites). For instance unless you completely disable 'External Sharing' (not recommended!) but only restrict it, external users who have been given access to a site with a more relaxed global setting will still have access.
 {: .notice--info}
 
-Note: You might consider dropping the OneDrive slider one nudge to *'Only People in your Organization'* if you are not comfortable relying on some fancy 'Security by Obscurity' as the settings depicted in the images do allow for ***any*** OneDrive owner to 'guess' an external email address that has been added by a Guest Inviter to the organization for their File Sharing purposes. Personally I think that this risk is negligible for regular companies and if you have the CA/MCAS combo in place you have full audibility. But sure, there still still is that risk of data leakage.
+Note: You might consider dropping the OneDrive slider one nudge to *'Only People in your Organization'* if you are not comfortable relying on some fancy 'Security by Obscurity' as the settings depicted in the images do allow for ***any*** OneDrive owner to 'guess' an external email address that has been added by a Guest Inviter to the organization for their File Sharing purposes. Personally I think that this risk is negligible for regular companies and if you have the CA / MCAS combo in place you have full audibility. But sure, there still still is that risk of data leakage.
 {: .notice--warning}
 
 ## Next time
 
 The next blog in this series will explain a modern way of *applying* your selected configuration in a controlled manner and offer a 'Starter Kit' of sorts which you can use in your organization to deploy Microsoft 365 SaaS configuration.
 
-## Bibliography
-
+<!-- Begin FootNotes -->
 [^1]: if you have at least some Azure AD Premium Plan 2 licenses available
+<!-- End FootNotes -->
+
+<!-- Begin Abbreviations -->
+*[MCAS]: Microsoft Cloud App Security
+*[OOTB]: Out-of-the-Box
+*[CA]: Conditional Access
+*[MFA]: Multi Factor Authentication
+*[SaaS]: Software as a Service, in this context the Microsoft 365 and Azure AD ecosystems are depicted
+*[PaC]: Platform as Code
+*[tenant]: A representation of an organization. It's a dedicated instance of shared Microsoft SaaS products offering Office 365 or Azure AD services.
+*[PnP]: Patterns and Practices initiative. Embraced by  Microsoft, supported by the community
+*[API]: Application Programming Interface, a collection of dedicated Uri's built to deliver specific responses based on specific input without the overhead of a Graphical User Interface.
+*[pipeline]: A pipeline in the context of Microsoft Azure Pipelines is a full-featured continuous integration (CI) and continuous delivery (CD) service. It works with your preferred Git provider and can deploy to most major cloud services, which include Azure services
+*[YAML]: Yet Another Markup Language
+<!-- End Abbreviations -->
 
 <!-- Begin References -->
 [1]: https://admin.onedrive.com/?v=SharingSettings
