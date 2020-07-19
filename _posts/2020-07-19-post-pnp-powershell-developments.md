@@ -8,8 +8,14 @@ header:
 categories:
   - blog
 tags:
-  - PowerShell
+  - Microsoft365
   - PnP
+  - PowerShell
+  - PowerShell 7
+  - .NET
+  - MicrosoftGraph
+  - AzureAD
+  - AppOnly
   - Automation
 ---
 ## Upcoming PnP PowerShell developments
