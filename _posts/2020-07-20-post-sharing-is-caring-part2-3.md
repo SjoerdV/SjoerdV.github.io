@@ -20,6 +20,7 @@ tags:
   - Microsoft365
   - AzureDevOps
   - AzurePipelines
+  - YAML
   - PlatformOps
   - PlatformAsCode
   - StarterKit
@@ -86,7 +87,7 @@ Set-PnPTenantSite https://yourtenant-my.sharepoint.com -DefaultSharingLinkType:D
 
 Now it's up to you to embed a declarative configuration such as the one above in your own pipeline, maybe use a more generic approach than the lines above. Also have a look at the [2020-07: Upcoming PnP PowerShell developments and recommendations][11] post I wrote on what to expect concerning PnP PowerShell and the use of 'App Only' authentication methods.
 
-The 'Starter Pipeline' I mentioned earlier already has basic username/password authentication covered.
+The 'Starter Pipeline' I mentioned earlier already has username/password as well as App-Only authentication covered.
 {: .notice--info}
 
 ## Next time
