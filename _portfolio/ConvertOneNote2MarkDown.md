@@ -19,6 +19,7 @@ gallery:
 Ready to make the step to Markdown and saying farewell to your OneNote, EverNote or whatever proprietary note taking tool you are using? Nothing beats clear text, right?
 
 For more information, script download and issue management visit [the Project Site][1]
+{: .notice--success}
 
 {% include gallery caption="This is a gallery with relevant product logos for this project." %}
 
