@@ -27,7 +27,7 @@ tags:
   - PowerShell
   - PnP
 ---
-This is the third and final part of a three part blog series, building on the premise to open up your Microsoft 365 Cloud Service tenant to External Parties. This third part will describe the *managing the lifecycle* of external identities making use of the 'PaC Starter Kit' I provided in part 2.
+This is the third and final part of a three part blog series, building on the premise to open up your Microsoft 365 Cloud Service tenant to External Parties. This third part will describe the *managing the life cycle* of external identities making use of the 'PaC Starter Kit' I provided in part 2.
 
 The [first part][1] described deciding on *the level* of 'external sharing' your organization cares to embrace.
 
@@ -65,8 +65,8 @@ Each external user account object typically goes though several common stages se
 1. Reactivating
 1. Deletion
 
-![External (Guest) User lifecycle management process](/assets/images/sharing-is-caring-part3-3-001.png "External (Guest) User lifecycle management process"){: style="border: 1px solid grey; padding:16px"}
-*Figure 2: External (Guest) User lifecycle management process*
+![External (Guest) User life cycle management process](/assets/images/sharing-is-caring-part3-3-001.png "External (Guest) User life cycle management process"){: style="border: 1px solid grey; padding:16px"}
+*Figure 2: External (Guest) User life cycle management process*
 
 Since we leave the 'Creation' phase entirely up to our resident Guest Inviters we will need to make arrangements for the other stages.
 
@@ -158,7 +158,7 @@ foreach ($GuestUser in $GuestUsersEXO) {
 
 I use a function `Add-GuestExpirationToSharePointList` to write the expired account to a SharePoint list. All that's needed is writing the User Principal Name of the Guest Account to the lists Title column (check for duplicates!) and then provide a method for users accessing this list of setting this account to 'Reactivate'. I use a [Flow 'Button'][10] to alter a field on the list item, but you could also just use a choice column which you can manually alter to a different text choice. Make sure the Guest Inviters have contribute access to this list but remove the 'Add' and 'Delete' roles. I also use the `Send-Report` function to send an email to the Owner (and a secondary Admin account, in case the Owner is not employed anymore).
 
-Read more about this SharePoint List, its recommended permissions, the Flow button and the Send-Report function in the [Guest User Lifecycle Management Tool][9] recommendation on my GitHub 'CaCAzureDevOpsPipeline' Project. This will also include detailed instructions on having these parts in place to complete true lifecycle management functionality.
+Read more about this SharePoint List, its recommended permissions, the Flow button and the Send-Report function in the [Guest User Life Cycle Management Tool][9] recommendation on my GitHub 'CaCAzureDevOpsPipeline' Project. This will also include detailed instructions on having these parts in place to complete true life cycle management functionality.
 {: .notice--success}
 
 Now it time to process Reactivations...
@@ -223,7 +223,7 @@ schedules:
     - refs/tags/*
 ```
 
-If you are interested in the full script for Guest User Lifecycle Management and a working YAML pipeline, have a look at the [Guest User Lifecycle Management Tool][9] recommendation in my GitHub 'CaCAzureDevOpsPipeline' Project featuring a Configuration-as-Code scaffold holding a Microsoft 365 SaaS Configuration with a basic multi-stage conditional YAML pipeline. This repository comes with instructions and the Guest User Lifecycle Management Tool comes with its own set of instructions.
+If you are interested in the full script for Guest User Life Cycle Management and a working YAML pipeline, have a look at the [Guest User Life Cycle Management Tool][9] recommendation in my GitHub 'CaCAzureDevOpsPipeline' Project featuring a Configuration-as-Code scaffold holding a Microsoft 365 SaaS Configuration with a basic multi-stage conditional YAML pipeline. This repository comes with instructions and the Guest User Life Cycle Management Tool comes with its own set of instructions.
 {: .notice--success}
 
 <!-- Begin FootNotes -->

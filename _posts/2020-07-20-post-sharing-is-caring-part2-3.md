@@ -92,7 +92,7 @@ The 'Starter Pipeline' I mentioned earlier already has username/password as well
 
 ## Next time
 
-The next blog in this series will explain *managing* the lifecycle of the identities the 'External Sharing' configuration will produce and offer insight in how to automate this using the 'Starter Kit' offered in this post.
+The next blog in this series will explain *managing* the life cycle of the identities the 'External Sharing' configuration will produce and offer insight in how to automate this using the 'Starter Kit' offered in this post.
 
 <!-- Begin FootNotes -->
 [^1]: Part of Azure DevOps, which is a crucial service fully integrated in your Azure AD environment
