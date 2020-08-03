@@ -4,7 +4,7 @@ date: 2020-08-03T10:00:00+02:00
 last_modified_at: 2020-08-03T10:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
-  og_image: /assets/images/teams_together_mode-big-four.png
+  og_image: /assets/images/teams-together-mode-big-four.png
 categories:
   - blog
 tags:
@@ -49,7 +49,7 @@ Related to this, the very reason Microsoft was not 'invited' to the Congressiona
 
 Considering this, it might be that Microsoft has found the perfect way of 'growing' in a more sustainable 'under the radar' way (consistently being second or third in a specific market segment, still generating massive revenues and good value for shareholders), being seen as less predatory and greedy than 'the big four' subjected to the hearing and while never being in fear of hostile takeover because of the sheer size and number of markets the company is active in.
 
-![Big Four in Congress (Fake Image)](/assets/images/teams_together_mode-big-four.png "Big Four in Congress (Fake Image)"){: style="border: 1px solid grey; padding:16px"}
+![Big Four in Congress (Fake Image)](/assets/images/teams-together-mode-big-four.png "Big Four in Congress (Fake Image)"){: style="border: 1px solid grey; padding:16px"}
 *Figure 3: 'The Big Four' together in Congress (Yes image is fake, of course!)*
 
 The biggest issue the four companies most recently being heard are having is that it has become fairly obviously (even to White House senators) that they are acting as a 'supplier', 'broker' and 'consumer' in their particular market segments and therefore undermining the forming and sustaining of any healthy competition. Google (Alphabet) have even perfected this by performing the same trick in not one but two market segments (Mobile Apps and Advertisement).
