@@ -54,7 +54,7 @@ Considering this, it might be that Microsoft has found the perfect way of 'growi
 ![Big Four in Congress (Fake Image)](/assets/images/teams-together-mode-big-four.png "Big Four in Congress (Fake Image)"){: style="border: 1px solid grey; padding:16px"}
 *Figure 3: 'The Big Four' together in Congress (Yes image is fake, of course!)*
 
-The biggest issue the four companies most recently being heard are having is that it has become fairly obviously (even to White House senators) that they are acting as a 'supplier', 'broker' and 'consumer' in their particular market segments and therefore undermining the forming and sustaining of any healthy competition. Google (Alphabet) have even perfected this by performing the same trick in not one but two market segments (Mobile Apps and Advertisement).
+The biggest issue the four companies most recently being heard are having is that it has become fairly obviously (even to US senators) that they are acting as a 'supplier', 'broker' and 'consumer' in their particular market segments and therefore undermining the forming and sustaining of any healthy competition. Google (Alphabet) have even perfected this by performing the same trick in not one but two market segments (Mobile Apps and Advertisement).
 
 Microsoft however, as a company, seem to have learned from [passed indiscretions][5] to grow without being too obvious, invasive or having a disproportionately large market share in any business sector. Wisdom comes with age, even in 'tech', as it seems! As a side note, the CEOs of the four tech companies have certainly learned from Gates how *not* to behave during such a hearing...
 
