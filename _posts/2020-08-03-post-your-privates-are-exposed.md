@@ -12,6 +12,8 @@ tags:
   - DataGovernance
   - GDPR
   - Privacy
+  - Competition
+  - Awareness
   - Outlook
   - PowerShell
 ---
