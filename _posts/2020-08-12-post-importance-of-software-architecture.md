@@ -4,7 +4,7 @@ date: 2020-08-12T13:00:00+02:00
 last_modified_at: 2020-08-12T13:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
-  og_image: /assets/images/quint.png
+  og_image: /assets/images/quint2.jpg
 categories:
   - blog
 tags:
