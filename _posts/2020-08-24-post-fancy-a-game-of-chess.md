@@ -1,7 +1,7 @@
 ---
 title: "Fancy a game of chess?"
-date: 2020-08-24T10:00:00+02:00
-last_modified_at: 2020-08-24T10:00:00+02:00
+date: 2020-08-24T08:00:00+02:00
+last_modified_at: 2020-08-24T08:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
   og_image: /assets/images/chess-player-thinks-about-move-in-chess-vector-25152554.jpg
