@@ -2,6 +2,7 @@
 title: "A little less conspicuous - Part 2: The DNS Sinkhole"
 date: 2021-09-26T12:00:00+02:00
 last_modified_at: 2021-09-26T12:00:00+02:00
+og_publish_date: 2021-09-26T12:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
   og_image: /assets/images/screen20210925005.png
