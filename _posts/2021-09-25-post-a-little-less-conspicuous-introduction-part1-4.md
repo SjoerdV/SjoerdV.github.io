@@ -41,7 +41,7 @@ This series will require some basic technical know-how from your part, but actua
 **:warning: Disclaimer** \
 This article and follow-ups have no ambitions to totally anonymize anyone on the internet, but just to make it a little bit more difficult for certain parties (ie. ISP's, governments, advertising moguls and the likes) to track you or your small company. \
 \
-The proposed setup is meant for demo purposes only and certainly not production ready without extra precautions and explanations put in place. \
+The proposed setup is meant for demo purposes only and is certainly not production-ready without extra precautions and explanations put in place. \
 \
 The packages, distributions and commands used and referred to in this article are valid for the most recent software versions available at the date of article publication. There is no guarantee the routines and packages described here will keep working at a later date.\
 \
@@ -92,10 +92,10 @@ For best results and certainly if you want to service an entire local area netwo
 
 This and further articles in this series all count up to the following flexible architecture where it is possible to choose a security / privacy model that suits **your** purpose. Part 2 and Part 3 can be set-up and be used 'on demand' fully separated. It is only when Part 4 is considered that both technologies presented in Part 2 and 3 are combined and as such both are required to operate together. The red texts in the architecture diagram below are specific for Part 4 of this series.
 
-As I did this setup three times, in preparation of writing this series, it only took me an hour to have the entire setup (Part 2, 3 and 4) replicated (reusing existing web server certificates exempted). all this without any further IaC optimizations I must add. Pipelining this might be worth the effort at some point (note to self).
+As I did this setup three times, in preparation of writing this series, it only took me an hour to have the entire setup (Part 2, 3 and 4) replicated (reusing existing web server certificates exempted). All this without any IaC optimizations I must add. Building this set-up through a DevOps pipelining might be worth the effort at some point (note to self).
 
 ![The DoToT Sinkhole Architecture](/assets/images/a-little-less-conspicuous-introduction-part1-4-002.drawio.png "The DoToT Sinkhole Architecture"){: style="border: 1px solid grey; padding:16px"}
-*Figure 1: The DoToT Sinkhole and Tor Proxy Architecture: where the DNS sinkhole functionality  combined with DNS-over-TLS forwarding for added security is provided, together with a Tor HTTP Proxy to turn ordinary devices and browsers into more anonymous entities when required. Ultimately this leads to an 'always on' DNS-over-TLS-over-Tor implementation for added permanent anonymity and security on the DNS plane.*
+*Figure 1: The DoToT Sinkhole and Tor Proxy Architecture: where the DNS sinkhole functionality combined with DNS-over-TLS (DoT)forwarding for added security is provided, together with a Tor HTTP Proxy to turn ordinary devices and browsers into more anonymous entities when required. Ultimately this leads to an 'always on' DNS-over-TLS-over-Tor implementation for added permanent anonymity and security on the DNS plane.*
 
 ## DietPI Initial Installation
 
@@ -112,11 +112,11 @@ Now it is time to begin. Start the DietPi installation as follows:
 1. Download the right image: [DietPi Site][5] -> Download
 2. Follow the [Installation][7] documentation to get you image running and show the following screen \
 ![DietPi-Software](/assets/images/screen20210925003.png "DietPi-Software"){: style="border: 1px solid grey; padding:16px"}
-*Figure 2: DietPi-Software: a neat functional ASCII-based menu with a CGA-like color scheme: `dietpi-config`. Reminds me of the MSDOS good old days. Who needs Dolby Vision?*
+*Figure 2: `dietpi-software`: a neat functional ASCII-based menu with a CGA-like color scheme: `dietpi-software`. Reminds me of the MSDOS good old days. Who needs Dolby Vision?*
 3. Since I am running a DietPi VM on Hyper-V Server I selected 'None' the 'SSH Server' component as working through the Hyper-V console was just fine for me.
 4. Start `DietPI-Config` and it will show the following screen
 ![DietPi-Config](/assets/images/screen20210925004.png "DietPi-Config"){: style="border: 1px solid grey; padding:16px"}
-*Figure 3: DietPi-Config*
+*Figure 3: `dietpi-config`*
 5. DON'T PRESS ANYTHING NOW
 6. Go to 'Part 2' and/or 'Part 3' below, depending on which DietPi instance you want to install, for the remainder of the instructions.
 

@@ -47,7 +47,7 @@ As you can see in the image above almost half of my 'simple' network DNS traffic
 **:warning: Disclaimer** \
 This article and follow-ups have no ambitions to totally anonymize anyone on the internet, but just to make it a little bit more difficult for certain parties (ie. ISP's, governments, advertising moguls and the likes) to track you or your small company. \
 \
-The proposed setup is meant for demo purposes only and certainly not production ready without extra precautions and explanations put in place. \
+The proposed setup is meant for demo purposes only and is certainly not production-ready without extra precautions and explanations put in place. \
 \
 The packages, distributions and commands used and referred to in this article are valid for the most recent software versions available at the date of article publication. There is no guarantee the routines and packages described here will keep working at a later date.\
 \
@@ -72,7 +72,7 @@ The following variables will be used in the guidance offered by this article.
 
 1. Initiate the DietPI installation described in [Part 1: Introduction](/blog/post-a-little-less-conspicuous-introduction-part1-4#dietpi-initial-installation) and continue from the `dietpi-config` screen
   ![DietPi-Config](/assets/images/screen20210925004.png "DietPi-Config"){: style="border: 1px solid grey; padding:16px"}
-  *Figure 1: DietPi-Config*
+  *Figure 1: `dietpi-config`*
 2. Choose your **timezone** (Language/Regional Options / Timezone)
 3. Set up your **keyboard** (Language/Regional Options / Keyboard)
    * IMPORTANT: make absolutely sure you choose the right keyboard layout here, since we will be changing passwords of the system later on and you can not see the characters typed. You might end up with an unexpected password (mine was 'Gen 105 Key with US INTL with deadkeys' btw)
@@ -87,7 +87,7 @@ The following variables will be used in the guidance offered by this article.
 7. If you are prompted to reboot: do so
 8. Finish the initial install by running '**Install**' on the `dietpi-software` screen
   ![DietPi-Software](/assets/images/screen20210925003.png "DietPi-Software"){: style="border: 1px solid grey; padding:16px"}
-  *Figure 2: DietPi-Software*
+  *Figure 2: `dietpi-software`*
 9. Change default global password, when prompted
 10. Change passwords for accounts (root and dietpi), when prompted
     * NOTE: These passwords should be different and make a note of them in your password vault.
@@ -102,7 +102,7 @@ You now have a running instance of a DietPI Linux distribution!
   * Login to your machine as `root`
   * Run `dietpi-software`
     ![DietPi-Software](/assets/images/screen20210925003.png "DietPi-Software"){: style="border: 1px solid grey; padding:16px"}
-    *Figure 3: DietPi-Software*
+    *Figure 3: `dietpi-software`*
     * Choose '**Browse Software**'
       * Select both **Pi-hole** and **Unbound**
     * Choose '**Install**' and configure as follows (Pi-hole features a wizard during installation)
@@ -177,7 +177,7 @@ You now have a running instance of a DietPI Linux distribution!
           * Convert 'p7b' file to a CAChain 'pem' file. Run: `openssl pkcs7 -inform DER -print_certs -in /mnt/samba/<cert_folder>/certnew.p7b -out /mnt/samba/<cert_folder>/fullchain.pem`
           * Create the folder to hold the certificates `mkdir /etc/lighttpd/certs`
           * Copy both pem files to that location `cp /mnt/samba/<cert_folder>/*.pem /etc/lighttpd/certs`
-          * Add a SSL configuration file as follows: `sudo nano /etc/lighttpd/conf-enabled/20-ssl.conf`. The file contents should look like this:
+          * Add a SSL configuration file as follows: `sudo nano /etc/lighttpd/conf-enabled/20-ssl.conf`. The file contents should look like this (change the references to **{{ page.variables.DNSHostName1 }}** with your own FQDN:
 
           ```conf
           $HTTP["host"] == "{{ page.variables.DNSHostName1 }}" {
@@ -206,8 +206,8 @@ You now have a running instance of a DietPI Linux distribution!
           * Check service status: `systemctl status lighttpd`
             * Should have no errors and 'active' state
             * Ignore the message about mod_openssl not being in the server.modules list
-      * Now, if everything went correctly, you should be able surf to you Pi-hole admin UI through SSL: https://{{ page.variables.DNSHostName1 }}/admin
-  * Surf to the Admin WebUI of your Pi-hole and add some blacklists to the Pi-hole (Group Management / Adlists) mentioned on this page: <https://avoidthehack.com/best-pihole-blocklists>. I picked the green ones mentioned in the 'The Firebog' with great results.
+      * Now, if everything went correctly, you should be able surf to you Pi-hole admin UI through SSL: **https://{{ page.variables.DNSHostName1 }}/admin**
+  * Surf to the Admin WebUI of your Pi-hole and add some blacklists to the Pi-hole (Group Management / Adlists) mentioned on this page: '[The Best PiHole Blocklists (2021)][7]'. I picked the green ones mentioned in the 'The Firebog' with great results.
 * Reconfigure DietPi OS
   * `dietpi-config`
     * 'Network Options: Adapters' -> Ethernet -> Static DNS: 127.0.0.1
@@ -226,7 +226,7 @@ You now have a running instance of a DietPI Linux distribution!
 You now have successfully configured a DietPI Pi-hole DNS Sinkhole that can be managed through a secured Admin Web interface and you have configured your network devices to use the Pi-hole as their DNS server!
 {: .notice--success}
 
-Now go on with the [Part3: The Tor Proxy][3] installation to have a functioning Tor + Privoxy HTTP Proxy.
+Now go on with the [Part 3: The Tor Proxy][3] installation (available on October 4th 2021) to have a functioning Tor + Privoxy HTTP Proxy.
 
 ## Continue reading
 
@@ -281,5 +281,6 @@ This series comprises of 4 parts:
 [4]: /blog/post-a-little-less-conspicuous-dns-over-tls-over-tor-part4-4/
 [5]: https://www.privacytools.io/providers/dns/
 [6]: https://discourse.pi-hole.net/t/enabling-https-for-your-pi-hole-web-interface/5771
+[7]: https://avoidthehack.com/best-pihole-blocklists
 
 <!-- End References -->
