@@ -42,7 +42,7 @@ This article and follow-ups have no ambitions to totally anonymize anyone on the
 \
 The proposed setup is meant for demo purposes only and certainly not production ready without extra precautions and explanations put in place. \
 \
-The packages, distributions and commands used and referred to in this article are valid for the most recent software versions available at the date of article publication. There is no guarantee the routines described here will keep working at a later date.\
+The packages, distributions and commands used and referred to in this article are valid for the most recent software versions available at the date of article publication. There is no guarantee the routines and packages described here will keep working at a later date.\
 \
 Furthermore rest assured, since the internet (no capital here!) was created with absolutely no security or privacy in mind, it will never deliver on any promise of these concepts. But why hand-over all your data on a platter and be profiled? It's like peeing naked in the middle of Grand Central Station and have everyone stare at you, would you really? At least put on a dress and pee in a bucket underneath you, doing that some people won't even notice you are there. \
 \
@@ -89,7 +89,7 @@ For best results and certainly if you want to service an entire local area netwo
 
 ## Full architecture to be achieved
 
-This and further articles in this series all count up to the following flexible architecture where it is possible to choose a security / privacy model that suits **your** purpose. Part 2 and Part 3 can be set-up and be used 'on demand' fully separated. It is only when Part 4 is considered that both technologies presented in Part 2 and 3 are combined and required to operate together.
+This and further articles in this series all count up to the following flexible architecture where it is possible to choose a security / privacy model that suits **your** purpose. Part 2 and Part 3 can be set-up and be used 'on demand' fully separated. It is only when Part 4 is considered that both technologies presented in Part 2 and 3 are combined and as such both are required to operate together. The red texts in the architecture diagram below are specific for Part 4 of this series.
 
 As I did this setup three times, in preparation of writing this series, it only took me an hour to have the entire setup (Part 2, 3 and 4) replicated (reusing existing web server certificates exempted). all this without any further IaC optimizations I must add. Pipelining this might be worth the effort at some point (note to self).
 
@@ -130,7 +130,7 @@ This series comprises of four parts:
 3. Part 3: [A little less conspicuous - The Tor Proxy][3] on running your own Tor SOCKS5 Proxy + Privoxy HTTP Proxy on DietPi
    * Requirements: None, can run Standalone
    * Achieves: Have the option to 'go anonymous' on the web when you want it, also for mobile devices (iOS, Android)
-4. Part 4: [A little less conspicuous - Obscure DNS traffic][4] on routing your DNS Traffic through Tor
+4. Part 4: [A little less conspicuous - Obscuring DNS traffic][4] on routing your DNS Traffic through Tor
    * Requirements: Parts 2 and 3
    * Achieves: Obscure already Secure DNS-over-TLS Traffic from your DNS resolvers
 
@@ -156,9 +156,11 @@ This series comprises of four parts:
 *[Privoxy]: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy.
 *[CA]: A certification authority (CA) is responsible for attesting to the identity of users, computers, and organizations. The CA authenticates an entity and vouches for that identity by issuing a digitally signed certificate. The CA can also manage, revoke, and renew certificates.
 *[FQDN]: A fully qualified domain name (FQDN), sometimes also referred to as an absolute domain name, is a domain name that specifies its exact location in the tree hierarchy of the Domain Name System (DNS). It specifies all domain levels, including the top-level domain and the root zone.
-*[DoT]: DNS over TLS
+*[DoT]: DNS over TLS (DoT) is a network security protocol for encrypting and wrapping Domain Name System queries and answers via the Transport Layer Security protocol. The goal of the method is to increase user privacy and security by preventing eavesdropping and manipulation of DNS data via man-in-the-middle attacks.
 *[DoToT]: DNS over TLS over Tor
+*[DoH]: DNS over HTTPS is a protocol for performing remote Domain Name System resolution via the common HTTPS protocol. A goal of the method is to increase user privacy and security by preventing eavesdropping and manipulation of DNS data by man-in-the-middle attacks by using the HTTPS protocol to encrypt the data between the DoH client and the DoH-based DNS resolver.
 *[IaC]: Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code.
+*[DNSSEC]: The Domain Name System Security Extensions is a suite of extension specifications by the Internet Engineering Task Force for securing data exchanged in the Domain Name System in Internet Protocol networks.
 
 <!-- End Abbreviations -->
 

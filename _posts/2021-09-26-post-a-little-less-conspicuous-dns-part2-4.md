@@ -1,7 +1,7 @@
 ---
 title: "A little less conspicuous - Part 2: The DNS Sinkhole"
-date: 2021-09-25T20:00:00+02:00
-last_modified_at: 2021-09-25T20:00:00+02:00
+date: 2021-09-26T12:00:00+02:00
+last_modified_at: 2021-09-26T12:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
   og_image: /assets/images/screen20210925005.png
@@ -15,9 +15,10 @@ tags:
   - Anonymous
   - HyperV
   - DietPi
-  - Pi-hole
-  - Unbound
   - DNS
+  - Pi-hole
+  - DNSMasq
+  - Unbound
   - DoT
   - DNS-over-TLS
 variables:
@@ -47,7 +48,7 @@ This article and follow-ups have no ambitions to totally anonymize anyone on the
 \
 The proposed setup is meant for demo purposes only and certainly not production ready without extra precautions and explanations put in place. \
 \
-The packages, distributions and commands used and referred to in this article are valid for the most recent software versions available at the date of article publication. There is no guarantee the routines described here will keep working at a later date.\
+The packages, distributions and commands used and referred to in this article are valid for the most recent software versions available at the date of article publication. There is no guarantee the routines and packages described here will keep working at a later date.\
 \
 Furthermore rest assured, since the internet (no capital here!) was created with absolutely no security or privacy in mind, it will never deliver on any promise of these concepts. But why hand-over all your data on a platter and be profiled? It's like peeing naked in the middle of Grand Central Station and have everyone stare at you, would you really? At least put on a dress and pee in a bucket underneath you, doing that some people won't even notice you are there. \
 \
@@ -138,7 +139,7 @@ You now have a running instance of a DietPI Linux distribution!
             forward-addr: 116.202.176.26@853#dot.libredns.gr    # LibreDNS (DE)
         ```
 
-      * It is possible to use your own DNS forwarders (forward-addr), but these should support DNS-over-TLS (DoT)
+      * It is possible to use your own DNS forwarders (forward-addr), but these should support DNS-over-TLS (DoT) and it is recommended they support DNSSEC validation as well.
         * Check [this list][5] for good ones.
       * Unbound will use round-robin to communicate with these forwarders so it is wise to have a few more available here, but at least two!
       * Check config: `unbound-checkconf`
@@ -217,7 +218,7 @@ You now have a running instance of a DietPI Linux distribution!
     * DHCP Server 'Client Scope' Configuration(s)
     * Router WAN configuration
   * Optional: Disable 'Outgoing WAN connections' using ports 53, 853 (TCP/UDP) for all devices except {{ page.variables.ServerIP1 }}
-    * Pi-hole will only use TCP port 853 btw, and after following part 4 of these series not even that. So you could do the blocking for your whole network at a later time or split up the proposed firewall rules
+    * Pi-hole (actually Unbound) will only use TCP port 853 btw, and after following Part 4 of these series not even that. So you could do the blocking for your whole network at a later time or split up the proposed firewall rules
   * Optional: Totally block any device with hard-coded (Secure) DNS settings from accessing the internet.
 
 **:heavy_check_mark: Congratulations** \
@@ -237,7 +238,7 @@ This series comprises of 4 parts:
 3. Part 3: [A little less conspicuous - The Tor Proxy][3] on running your own Tor SOCKS5 Proxy + Privoxy HTTP Proxy on DietPi
    * Requirements: None, can run Standalone
    * Achieves: Have the option to 'go anonymous' on the web when you want it, also for mobile devices (iOS, Android)
-4. Part 4: [A little less conspicuous - Obscure DNS traffic][4] on routing your DNS Traffic through Tor
+4. Part 4: [A little less conspicuous - Obscuring DNS traffic][4] on routing your DNS Traffic through Tor
    * Requirements: Parts 2 and 3
    * Achieves: Obscure already Secure DNS-over-TLS Traffic from your DNS resolvers
 
@@ -263,9 +264,11 @@ This series comprises of 4 parts:
 *[Privoxy]: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy.
 *[CA]: A certification authority (CA) is responsible for attesting to the identity of users, computers, and organizations. The CA authenticates an entity and vouches for that identity by issuing a digitally signed certificate. The CA can also manage, revoke, and renew certificates.
 *[FQDN]: A fully qualified domain name (FQDN), sometimes also referred to as an absolute domain name, is a domain name that specifies its exact location in the tree hierarchy of the Domain Name System (DNS). It specifies all domain levels, including the top-level domain and the root zone.
-*[DoT]: DNS over TLS
+*[DoT]: DNS over TLS (DoT) is a network security protocol for encrypting and wrapping Domain Name System queries and answers via the Transport Layer Security protocol. The goal of the method is to increase user privacy and security by preventing eavesdropping and manipulation of DNS data via man-in-the-middle attacks.
 *[DoToT]: DNS over TLS over Tor
+*[DoH]: DNS over HTTPS is a protocol for performing remote Domain Name System resolution via the common HTTPS protocol. A goal of the method is to increase user privacy and security by preventing eavesdropping and manipulation of DNS data by man-in-the-middle attacks by using the HTTPS protocol to encrypt the data between the DoH client and the DoH-based DNS resolver.
 *[IaC]: Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code.
+*[DNSSEC]: The Domain Name System Security Extensions is a suite of extension specifications by the Internet Engineering Task Force for securing data exchanged in the Domain Name System in Internet Protocol networks.
 
 <!-- End Abbreviations -->
 
