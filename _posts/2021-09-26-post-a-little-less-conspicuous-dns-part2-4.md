@@ -235,10 +235,10 @@ This series comprises of 4 parts:
 2. **This post** - Part 2: [A little less conspicuous - The DNS Sinkhole][2] on running your own DNS Pi-hole with secure Admin WebUI + Unbound + TLS resolvers on DietPi
    * Requirements: None, can run Standalone
    * Achieves: General Ad blocking for your network + Obscure DNS traffic for your ISP by using DNS-over-TLS resolvers
-3. Part 3: [A little less conspicuous - The Tor Proxy][3] on running your own Tor SOCKS5 Proxy + Privoxy HTTP Proxy on DietPi
+3. **[Coming on October 4th]** Part 3: [A little less conspicuous - The Tor Proxy][3] on running your own Tor SOCKS5 Proxy + Privoxy HTTP Proxy on DietPi
    * Requirements: None, can run Standalone
    * Achieves: Have the option to 'go anonymous' on the web when you want it, also for mobile devices (iOS, Android)
-4. Part 4: [A little less conspicuous - Obscuring DNS traffic][4] on routing your DNS Traffic through Tor
+4. **[Coming on October 4th]** Part 4: [A little less conspicuous - Obscuring DNS traffic][4] on routing your DNS Traffic through Tor
    * Requirements: Parts 2 and 3
    * Achieves: Obscure already Secure DNS-over-TLS Traffic from your DNS resolvers
 
