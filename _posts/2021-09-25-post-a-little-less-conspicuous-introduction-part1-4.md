@@ -12,8 +12,9 @@ tags:
   - Marketing
   - SurveillanceCapitalism
   - Awareness
-  - Securability
-  - Anonymous
+  - Security
+  - Privacy
+  - Anonymity
   - HyperV
   - DietPi
   - Pihole
@@ -37,6 +38,8 @@ This series will require some basic technical know-how from your part, but actua
   * How do those data packets flow?
 * Basic '[Debian Linux 'Raspberry PI' commands](https://www.circuitbasics.com/useful-raspberry-pi-commands/)'
   * Rest assured, you won't actually need to buy a device or anything and this list is not that long
+
+And now for something very important...
 
 **:warning: Disclaimer** \
 This article and follow-ups have no ambitions to totally anonymize anyone on the internet, but just to make it a little bit more difficult for certain parties (ie. ISP's, governments, advertising moguls and the likes) to track you or your small company. \
@@ -128,12 +131,12 @@ This series comprises of four parts:
 2. Part 2: [A little less conspicuous - The DNS Sinkhole][2] on running your own DNS Pihole with secure Admin WebUI + Unbound + TLS resolvers on DietPi
    * Requirements: None, can run Standalone
    * Achieves: General Ad blocking for your network + Obscure DNS traffic for your ISP by using DNS-over-TLS resolvers
-3. **[Coming on October 4th]** Part 3: [A little less conspicuous - The Tor Proxy][3] on running your own Tor SOCKS5 Proxy + Privoxy HTTP Proxy on DietPi
+3. Part 3: [A little less conspicuous - The Tor Proxy][3] on running your own Tor SOCKS5 Proxy + Privoxy HTTP Proxy on DietPi
    * Requirements: None, can run Standalone
    * Achieves: Have the option to 'go anonymous' on the web when you want it, also for mobile devices (iOS, Android)
-4. **[Coming on October 4th]** Part 4: [A little less conspicuous - Obscuring DNS traffic][4] on routing your DNS Traffic through Tor
+4. Part 4: [A little less conspicuous - Obscuring DNS traffic][4] on routing your DNS Traffic through Tor
    * Requirements: Parts 2 and 3
-   * Achieves: Obscure already Secure DNS-over-TLS Traffic from your DNS resolvers
+   * Achieves: Obscure already Secure DNS-over-TLS Traffic from your DNS resolvers + Use Tor Browser and Pi-hole together
 
 <!-- Begin FootNotes -->
 

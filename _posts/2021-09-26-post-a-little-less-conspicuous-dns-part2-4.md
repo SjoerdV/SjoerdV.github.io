@@ -12,8 +12,9 @@ tags:
   - Marketing
   - SurveillanceCapitalism
   - Awareness
-  - Securability
-  - Anonymous
+  - Security
+  - Privacy
+  - Anonymity
   - HyperV
   - DietPi
   - DNS
@@ -43,6 +44,8 @@ Finally because you are blocking the go-to 'address' of certain sites, you preve
 ![Pi-hole](/assets/images/screen20210925005.png "Pi-hole"){: style="border: 1px solid grey; padding:16px"}
 
 As you can see in the image above almost half of my 'simple' network DNS traffic is being blocked, without disrupting functionality I should add. These blocked sites are mostly involved with telemetry gathering in my case.
+
+And now for something very important...
 
 **:warning: Disclaimer** \
 This article and follow-ups have no ambitions to totally anonymize anyone on the internet, but just to make it a little bit more difficult for certain parties (ie. ISP's, governments, advertising moguls and the likes) to track you or your small company. \
@@ -158,9 +161,9 @@ You now have a running instance of a DietPI Linux distribution!
       * First install the OpenSSL module for Lighttpd to get this all working: `apt install lighttpd-mod-openssl`
       * Now obtain a webserver certificate with private key for a FQDN of your choosing (**{{ page.variables.DNSHostName1 }}**) AND the trusted root authority certificate chain when using a local Certificate Authority through:
         * **Let's Encrypt** method (ok-ish)
-          * Follow <https://discourse.pi-hole.net/t/enabling-https-for-your-pi-hole-web-interface/5771> for starters on configuring SSL on Pi-hole Admin Site with Certbot and LetsEncrypt
+          * Follow [Enabling HTTPS for your Pi-hole Web Interface][6] for starters on configuring SSL on Pi-hole Admin Site with Certbot and LetsEncrypt
           * You need to have registered an Internet reachable domain where you can add TXT records for this to work
-          * Because of very frequent automatic certificate renewal and hassle with copying certificates I don't like this option so much... it's nice to have your own Certificate Authority (CA) with certificates that can last 2 years. If you have access to one, that is.
+          * Because of very frequent automatic certificate renewal, the hassle of copying certificates and having to rely on a third party to deliver them (which could [go wrong][7], I don't like this option so much... it's nice to have your own Certificate Authority (CA) with certificates that can last 2 years. If you have access to one, that is.
         * **External CA** method (fine)
           * Just order the certificates and proceed with the instructions under 'Windows CA'. You can probably get them in the right (pem) format to be directly usable for Lighttpd
         * **Windows CA** method (preferred)
@@ -207,7 +210,7 @@ You now have a running instance of a DietPI Linux distribution!
             * Should have no errors and 'active' state
             * Ignore the message about mod_openssl not being in the server.modules list
       * Now, if everything went correctly, you should be able surf to you Pi-hole admin UI through SSL: **https://{{ page.variables.DNSHostName1 }}/admin**
-  * Surf to the Admin WebUI of your Pi-hole and add some blacklists to the Pi-hole (Group Management / Adlists) mentioned on this page: '[The Best PiHole Blocklists (2021)][7]'. I picked the green ones mentioned in the 'The Firebog' with great results.
+  * Surf to the Admin WebUI of your Pi-hole and add some blacklists to the Pi-hole (Group Management / Adlists) mentioned on this page: '[The Best PiHole Blocklists (2021)][8]'. I picked the green ones mentioned in the 'The Firebog' with great results.
 * Reconfigure DietPi OS
   * `dietpi-config`
     * 'Network Options: Adapters' -> Ethernet -> Static DNS: 127.0.0.1
@@ -226,7 +229,7 @@ You now have a running instance of a DietPI Linux distribution!
 You now have successfully configured a DietPI Pi-hole DNS Sinkhole that can be managed through a secured Admin Web interface and you have configured your network devices to use the Pi-hole as their DNS server!
 {: .notice--success}
 
-Now go on with the [Part 3: The Tor Proxy][3] installation (available on October 4th 2021) to have a functioning Tor + Privoxy HTTP Proxy.
+Now go on with the [Part 3: The Tor Proxy][3] installation to have a functioning Tor + Privoxy HTTP Proxy.
 
 ## Continue reading
 
@@ -236,12 +239,12 @@ This series comprises of 4 parts:
 2. **This post** - Part 2: [A little less conspicuous - The DNS Sinkhole][2] on running your own DNS Pi-hole with secure Admin WebUI + Unbound + TLS resolvers on DietPi
    * Requirements: None, can run Standalone
    * Achieves: General Ad blocking for your network + Obscure DNS traffic for your ISP by using DNS-over-TLS resolvers
-3. **[Coming on October 4th]** Part 3: [A little less conspicuous - The Tor Proxy][3] on running your own Tor SOCKS5 Proxy + Privoxy HTTP Proxy on DietPi
+3. Part 3: [A little less conspicuous - The Tor Proxy][3] on running your own Tor SOCKS5 Proxy + Privoxy HTTP Proxy on DietPi
    * Requirements: None, can run Standalone
    * Achieves: Have the option to 'go anonymous' on the web when you want it, also for mobile devices (iOS, Android)
-4. **[Coming on October 4th]** Part 4: [A little less conspicuous - Obscuring DNS traffic][4] on routing your DNS Traffic through Tor
+4. Part 4: [A little less conspicuous - Obscuring DNS traffic][4] on routing your DNS Traffic through Tor
    * Requirements: Parts 2 and 3
-   * Achieves: Obscure already Secure DNS-over-TLS Traffic from your DNS resolvers
+   * Achieves: Obscure already Secure DNS-over-TLS Traffic from your DNS resolvers + Use Tor Browser and Pi-hole together
 
 <!-- Begin FootNotes -->
 
@@ -253,7 +256,7 @@ This series comprises of 4 parts:
 *[denial of service]: The act of sending so many data packets to an internet service that it crashes.
 *[spoofing]: Posing to **be** a certain party in a chain of communications and **act** (usually fraudulently) on behalf of that party having the chain believe it was in fact the original party.
 *[cookies]: a persistent and/or reusable data asset meant to store application data and/or identity information of a network/device/browser.
-*[DNS]: The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
+*[DNS]: The Domain Name System (DNS) is the phone book of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
 *[NTP]: The Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks.
 *[DHCP]: Dynamic Host Configuration Protocol (DHCP) is a client/server protocol that automatically provides an Internet Protocol (IP) host with its IP address and other related configuration information such as the subnet mask and default gateway. RFCs 2131 and 2132 define DHCP as an Internet Engineering Task Force (IETF) standard based on Bootstrap Protocol (BOOTP), a protocol with which DHCP shares many implementation details. DHCP allows hosts to obtain required TCP/IP configuration information from a DHCP server.
 *[TLS]: Transport Layer Security (TLS) is a cryptographic protocol that provides end-to-end security of data sent between applications over the Internet.
@@ -279,8 +282,9 @@ This series comprises of 4 parts:
 [2]: /blog/post-a-little-less-conspicuous-dns-part2-4/
 [3]: /blog/post-a-little-less-conspicuous-tor-part3-4/
 [4]: /blog/post-a-little-less-conspicuous-dns-over-tls-over-tor-part4-4/
-[5]: https://www.privacytools.io/providers/dns/
+[5]: https://privacyguides.org/providers/dns/
 [6]: https://discourse.pi-hole.net/t/enabling-https-for-your-pi-hole-web-interface/5771
-[7]: https://avoidthehack.com/best-pihole-blocklists
+[7]: https://news.in-24.com/technology/188486.html
+[8]: https://avoidthehack.com/best-pihole-blocklists
 
 <!-- End References -->
