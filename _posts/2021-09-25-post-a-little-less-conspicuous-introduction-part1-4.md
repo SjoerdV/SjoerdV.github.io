@@ -32,7 +32,7 @@ As the rest of this article will show and provide a solution for, one of the mos
 
 Most of what I describe in this series can be found elsewhere on the web but never combined in a practical comprehensive way like this. Also most of the open source software packages prescribed in this series have been around for a very long time and have a great track record. Finally, many thanks to Cloudflare for the basic image design above.
 
-This series will require some basic technical know-how from your part, but actually it is not that hard. Since I am actually invested in the Microsoft Cloud ecosystem I tend to use mostly Microsoft services, but going 'Open Source' a bit on this one is an eye-opener. Especially since Microsoft and Linux are not mutually exclusive anymore, hosting the proposed Linux (Debian) systems in Azure is certainly a possibility, so is using Windows Subsystem for Linux (WSL2) and most importantly the Linux distro I will be using makes it **so easy to start with**. You might want to read up on:
+This series will require some basic technical know-how from your part, but actually it is not that hard. Since I am actually invested in the Microsoft Cloud ecosystem I tend to use mostly Microsoft services, but going 'Open Source' a bit on this one is an eye-opener. Especially since Microsoft and Linux are not mutually exclusive anymore, hosting the proposed Linux (Debian) systems in Azure is certainly a possibility (if you [mind the pitfalls][8]), so is using Windows Subsystem for Linux (WSL2) and most importantly the Linux distro I will be using makes it **so easy to start with**. You might want to read up on:
 
 * The '[Internet Model](https://www.inetdaemon.com/tutorials/basic_concepts/network_models/osi_model/osi_model_vs_internet_model.shtml)'.
   * How do those data packets flow?
@@ -177,5 +177,6 @@ This series comprises of four parts:
 [5]: https://dietpi.com
 [6]: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/supported-guest-os
 [7]: https://dietpi.com/docs/install/
+[8]: https://www.zdnet.com/article/omigod-azure-users-running-linux-vms-need-to-update-now/
 
 <!-- End References -->
