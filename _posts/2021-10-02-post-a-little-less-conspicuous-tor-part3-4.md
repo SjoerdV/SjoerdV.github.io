@@ -228,7 +228,6 @@ You now have a running instance of a DietPI Linux distribution!
       * network.proxy.ssl_port -> 9051
       * network.proxy.type -> 1
       * network.proxy.no_proxies_on -> .{{ page.variables.ExistingADDomain }}, 192.168.0.0/16
-      * network.dns.disabled -> false
       * network.dns.blockDotOnion -> false
       * network.trr.mode -> 5
       * network.dns.disableIPv6 -> true
