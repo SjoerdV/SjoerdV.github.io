@@ -10,8 +10,8 @@ header:
 
 ## Teams Provisioning Tool
 
-<embed src="https://belovanna.github.io/assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-TeamsProvisioningTool.pdf" type="application/pdf" />
+![Teams Provisioning Tool](https://www.spdevalk.nl//assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-TeamsProvisioningTool.pdf)
 
 ## Guest Lifecyle Management Tool
 
-<embed src="https://belovanna.github.io/assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-GuestLifeCycleManagementTool.pdf" type="application/pdf" />
+![Guest Lifecyle Management Tool](https://www.spdevalk.nl//assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-GuestLifeCycleManagementTool.pdf)
