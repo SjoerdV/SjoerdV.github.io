@@ -10,8 +10,8 @@ header:
 
 ## Teams Provisioning Tool
 
-![Teams Provisioning Tool](https://www.spdevalk.nl//assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-TeamsProvisioningTool.pdf)
+![Teams Provisioning Tool](https://www.spdevalk.nl/assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-TeamsProvisioningTool.png)
 
 ## Guest Lifecyle Management Tool
 
-![Guest Lifecyle Management Tool](https://www.spdevalk.nl//assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-GuestLifeCycleManagementTool.pdf)
+![Guest Lifecyle Management Tool](https://www.spdevalk.nl/assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-GuestLifeCycleManagementTool.png)
