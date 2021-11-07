@@ -83,7 +83,7 @@ plugins:
 author:
   name   : "Sjoerd de Valk"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Maybe I'm just like my father, too bold..."
+  bio    : "Clear, Swift, Analytical, Pragmatic and Safe, Can-Do - preferably Automated. That's just who I am."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
