@@ -29,7 +29,9 @@ Hi I'm <phoneme alphabet="ipa" ph="/ʃuɝd/ ">Sjoerd</phoneme> <input type="butt
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <div>
   <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="f4lc0n99" style="float:left;padding-right:5px"><a class="LI-simple-link" href='https://nl.linkedin.com/in/f4lc0n99?trk=profile-badge'>Sjoerd de Valk</a></div>
-
+</div>
+<br />
+<div>
   <div style="font-size:14px">#CloudProductivity | #MicrosoftCloud |<br />
   <b>#ModernWorkplace</b> |<br />
   <b>#Microsoft365</b> | <b>#AzureAD</b> | <br />
@@ -38,7 +40,7 @@ Hi I'm <phoneme alphabet="ipa" ph="/ʃuɝd/ ">Sjoerd</phoneme> <input type="butt
   <i>#Security</i> | #MCAS | #ATP |<br />
   #StrategyAdvice | <i>#ITGovernance</i> |<br />
   <i>#ArchitectureDesign</i> | #Portal | #Intranet |<br />
-  <code>#ProcessAutomation</code> | <code>#Powershell</code> |<br />
+  <code>#ProcessAutomation</code> | <code>#Powershell</code> | <code>#PowerPlatform</code> |<br />
   #Workflow | #Forms | #ECM | #WCM |<br />
   #DocumentManagement | #EnterpriseSearch |<br />
   #TaxonomyDevelopment
