@@ -13,8 +13,6 @@ tags:
   - PowerShell
   - EasyGraph
 ---
-## The Graph
-
 The Microsoft Graph is the latest of APIs Microsoft provides for their productivity cloud services. In the past nearly every individual workload in the Microsoft 365[^1] ecosystem had at least one public API made available for broad consumption. This meant Exchange Online, SharePoint Online/OneDrive, Azure AD, etc. offered their own unique ways of requesting and manipulating data and configuration.
 
 ![Getting a Powerful Grip on the Graph](/assets/images/post-powergrip-the-graph-001.png "Getting a Powerful Grip on the Graph"){: style="border: 1px solid grey; padding:16px"}
@@ -75,7 +73,7 @@ Because modern day APIs all live in the cloud they are subject to:
 
 Almost all of these issues you have no control over, they just happen and may last for quite some time or (even worse) occur intermittently or are linked to a specific time of day where a downtime event is more or less likely to occur.
 
-So you always have to build any solution, but especially unattended PowerShell solutions, with these circumstances in mind. The Microsoft native ```Invoke-WebRequest```[9] and ```Invoke-RestMethod```[10] cmdlets both support ```MaximumRetryCount``` and ```RetryIntervalSec``` parameters and can act on the StatusCode (```Invoke-RestMethod``` had this added in the PowerShell 7 version) of the response. These Retry options act when a response code in the 400 to 599 range and 304 is returned.
+So you always have to build any solution, but especially unattended PowerShell solutions, with these circumstances in mind. The Microsoft native ```Invoke-WebRequest``` [cmdlet][9] and ```Invoke-RestMethod``` [cmdlet][10] both support ```MaximumRetryCount``` and ```RetryIntervalSec``` parameters and can act on the StatusCode (```Invoke-RestMethod``` had this added in the PowerShell 7 version) of the response. These Retry options act when a response code in the 400 to 599 range and 304 is returned.
 
 You might need some more flexibility.
 
