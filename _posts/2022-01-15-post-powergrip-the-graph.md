@@ -4,7 +4,7 @@ date: 2022-01-15T18:00:00+02:00
 last_modified_at: 2022-01-15T18:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
-  og_image: /assets/images/header-banner.png
+  og_image: /assets/images/post-powergrip-the-graph-001.png
 categories:
   - blog
 tags:
