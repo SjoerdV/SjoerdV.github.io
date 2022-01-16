@@ -102,7 +102,7 @@ If I had one comment to make it would be that, it doesn't have features to make 
 
 REST API endpoints like the Graph REST API behave like any normal web service should and send back [standardized return codes][8] like 200, 201, 308, 400, 401, 403, 418 (very important!), 500, 503. When something goes awry (codes 400 up until 599) you need to act on these circumstances and try to mitigate the situation.
 
-The EasyGraph module already has you covered as it treats any response codes the built-in ```Invoke-Webrequest```[11] cmdlet would consider an error as such (except the '429' response code aka 'Next Page').
+The EasyGraph module already has you covered as it treats any response codes the built-in ```Invoke-Webrequest``` [cmdlet][11] would consider an error as such (except the '429' response code aka 'Next Page').
 
 When the endpoint does not respond at all, of course no return code is sent back, but the function will eventually timeout and return at least a textual error code. Make sure to have the call wrapped in a ```try {...}; catch {...}``` block.
 
