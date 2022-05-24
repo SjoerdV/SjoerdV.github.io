@@ -1,3 +1,13 @@
 {
-  "MarkdownPaste.path": "../assets/images"
+  "MarkdownPaste.path": "../assets/images",
+  "cSpell.language": "en,nl",
+  "spellright.suggestionsInHints": false,
+  "spellright.language": [
+    "en_US"
+  ],
+  "spellright.documentTypes": [
+    "latex",
+    "plaintext",
+    "markdown"
+  ]
 }
