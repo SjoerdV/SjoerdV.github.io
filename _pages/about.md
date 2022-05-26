@@ -40,7 +40,7 @@ Hi I'm <phoneme alphabet="ipa" ph="/ʃuɝd/ ">Sjoerd</phoneme> <input type="butt
   <i>#Security</i> | #MCAS | #ATP |<br />
   #StrategyAdvice | <i>#ITGovernance</i> |<br />
   <i>#ArchitectureDesign</i> | #Portal | #Intranet |<br />
-  <code>#ProcessAutomation</code> | <code>#Powershell</code> | <code>#PowerPlatform</code> |<br />
+  <code>#ProcessAutomation</code> | <b><code>#Powershell</code></b> | <code>#PowerPlatform</code> |<br />
   #Workflow | #Forms | #ECM | #WCM |<br />
   #DocumentManagement | #EnterpriseSearch |<br />
   #TaxonomyDevelopment
