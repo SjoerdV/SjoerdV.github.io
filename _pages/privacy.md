@@ -35,7 +35,7 @@ SP de Valk Consultancy verzamelt en bewaart uw naam, achternaam, e-mailadres en 
 * Zolang uw persoonlijke account niet is verwijderd uit ons Cloud Systeem OF u blijft samenwerken via uw federatieve account, is uw gebruikersprofiel (ie. naam, achternaam & e-mailadres) zichtbaar voor alle gebruikers in de cloudomgeving van SP de Valk Consultancy.
 * Alle activiteitenlogboeken zijn alleen toegankelijk voor de IT-beheerder(s) en DPO-contacten binnen SP de Valk Consultancy.
 
-### Opsl
+### Opslag termijn
 
 * Zes maanden nadat uw account is aangemaakt, wordt uw account uitgeschakeld
 * Zes maanden nadat uw account is uitgeschakeld (en niet opnieuw is ingeschakeld), worden al uw gegevens (dus naam, achternaam, e-mailadres en activiteitenlogboeken) permanent verwijderd uit de gegevensopslag van SP de Valk Consultancy.
