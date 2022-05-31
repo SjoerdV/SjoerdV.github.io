@@ -1,5 +1,7 @@
 {
   "MarkdownPaste.path": "../assets/images",
+  "MarkdownPaste.nameSuffix": "",
+  "MarkdownPaste.namePrefix": "screen",
   "cSpell.language": "en,nl",
   "spellright.suggestionsInHints": false,
   "spellright.language": [

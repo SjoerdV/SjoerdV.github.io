@@ -1,2 +1,8 @@
-{%- assign citation = site.data.biblio | where:"key", include.key | first -%}
-<span class="cit-authors">{{citation.authors | join: " and "}}</span>. (<span class="cit-year">{{citation.year}}</span>). <span class="cit-title"><a href="{{citation.url}}" target="_blank">"{{citation.title}}"</a></span>.
+{%- assign citation = site.data.biblio | where:"id", include.id | first -%}
+{%- assign delimiter = ', ' -%}
+{%- assign authorcollection = "" | split: "," -%}
+{%- for item in citation.author -%}
+  {%- assign singleauthor = item.family | append: delimiter | append: item.given -%}
+  {%- assign authorcollection = authorcollection | push: singleauthor -%}
+{%- endfor -%}
+<span class="cit-authors">{{authorcollection | join: " and "}}</span>. (<span class="cit-year">{{citation.issued.date-parts}}</span>). <span class="cit-title"><a href="{{citation.url}}" target="_blank">"{{citation.title}}"</a></span>.
