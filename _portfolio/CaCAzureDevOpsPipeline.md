@@ -11,5 +11,5 @@ Are you in need of a Configuration-as-Code, cross-platform, expandable scaffold 
 For more information, script download and issue management visit [the Project Site](/CaCAzureDevOpsPipeline)
 {: .notice--success}
 
-As part of the solution a ['Guest User Life Cycle Management Tool'](/CaCAzureDevOpsPipeline/gulm.html) is also offered.
+As part of the solution a ['Guest User Life Cycle Management Tool'](/CaCAzureDevOpsPipeline/gulm.html) is also offered including a scheduled pipeline for your convenience.
 {: .notice--warning}
