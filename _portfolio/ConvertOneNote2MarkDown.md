@@ -31,11 +31,11 @@ Ready to make the step to Markdown and saying farewell to your OneNote, EverNote
 For more information, script download and issue management visit [the Project Site][1]
 {: .notice--success}
 
-{% include gallery caption="This is a gallery with relevant product logos for this project." %}
+{% include gallery caption="This is a gallery with relevant product logos for the initial project." %}
 
 Maybe even go one step further and convert the markdown files to [Asciidoc][2]. A very well defined and versatile markup language for professionals.
 
-{% include gallery2 caption="This is a gallery with relevant product logos for this project." %}
+{% include gallery2 caption="This is a gallery with relevant product logos for the additional project steps." %}
 
 <!-- Begin References -->
 [1]: /ConvertOneNote2MarkDown
