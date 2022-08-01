@@ -5,7 +5,7 @@ last_modified_at: 2022-08-01T12:00:00+02:00
 og_publish_date: 2022-08-01T12:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
-  og_image: /assets/images/post-path-to-my-new-messaging-app-001.svg
+  og_image: /assets/images/post-path-to-my-new-messaging-app-001.png
 categories:
   - blog
 tags:
@@ -47,7 +47,7 @@ If you have an opinion about this subject or have musings of your own you want t
 
 **In a time** where the general public is more divided than ever and one person's truth is diametrically opposed to another person's truth. An [excellent article][13] I can recommend explains this in detail. Truly Noah Harari-style, Saturday morning reading material!
 
-![The path to my new messaging app - A Utopian tale](/assets/images/post-path-to-my-new-messaging-app-001.svg "The path to my new messaging app - A Utopian tale")
+![The path to my new messaging app - A Utopian tale](/assets/images/post-path-to-my-new-messaging-app-001.png "The path to my new messaging app - A Utopian tale")
 *The trinity of the B's: Big Brother, Bigots and Bullies*
 {: style="border: 1px solid grey; padding:16px; font-size:10px"}
 
