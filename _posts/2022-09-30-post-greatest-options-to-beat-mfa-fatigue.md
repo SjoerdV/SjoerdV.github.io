@@ -86,9 +86,19 @@ The procedure looks like this:
    4. target user should have 'Send As' permissions
    5. joining and leaving the group should be set to 'Closed'
 
+**:information_source: INFO**  
+While existing Authenticator App entries will still work for the account, the wrong (old) UPN is displayed in the App, so the user should enter the Microsoft Account 'My Sign-ins -> Security' [page][2] and remove any old Authenticator App entry (both on that page and in the Authenticator App) and re-add using the new UPN.
+{: .notice--info}
+
+**:information_source: INFO**  
+While configured desktops for the user will automatically adjust all Microsoft 365 Desktop Apps and OneDrive to use the new UPN (Nice!), things are different in the mobile space. Any Mobile App that is configured for/by the user (Outlook, SharePoint, Teams, etc.) might need to the account re-added as well, because the old UPN will linger there. Single exception here is the OneDrive App, I found, which will (after a crash) show the correct UPN.
+{: .notice--info}
+
 The user should inform close contacts OUTSIDE of the organization of their email address change. Alternatively the user can also opt to keep sending emails from their original email address, but he/she would probably need instructions how to do that.  
 The 'Send As' function in the Outlook Web App is very easy to use when the 'From' field is shown on a new message, but it does require discipline as you can not set the default FROM address to a Distribution List, sadly.  
 An inventive Exchange Admin could imagine to setup a 'mail flow rule' (aka transport rule) to change the 'Reply-To' header of each mail sent from this user, but alas, this will not work as well.
+
+## Parting words
 
 There you have it! Despite the mentioned repercussions this method of mitigating 'MFA fatigue' might be worth it for some and not for others. At least for a time attackers won't know the sign-in address to spam.
 
@@ -137,5 +147,6 @@ It would be nice if Microsoft at some point acknowledges the underlying fundamen
 <!-- Begin References -->
 
 [1]: https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-additional-context
+[2]: https://mysignins.microsoft.com
 
 <!-- End References -->
