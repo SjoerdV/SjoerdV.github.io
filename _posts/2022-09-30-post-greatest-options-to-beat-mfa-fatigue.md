@@ -46,15 +46,15 @@ You might expect that you can change some Azure AD Conditional Access policy to 
 
 ## Option 1
 
-The simplest method would be: do not use a Password-less (especially the push notification (without number matching)) sign-in feature any more, but make use of a password as a first factor and an authenticator app prompt as a second factor in the authentication sequence. This will stop any annoying Authenticator App notifications, because the attacker needs to know the password first, which is unlikely  
-"Well but that is a terrible experience!", you say? Indeed it is: it makes the login processes lengthy again and weren't we about to phase out passwords forever?  
-This option still is the **most silent** method, but only valid for some users...
+The simplest method would be: do not use a Password-less (especially the push notification (without number matching)) sign-in feature as the only authentication method for the targeted account. Instead make use of either the password, certificate or FIDO2/Windows Hello methods as a first factor and use the authenticator app prompt as a second factor only ([Read more][1]). This will stop any annoying immediate Authenticator App notifications, because the attacker needs to comply with the first factor in the authentication sequence before the target gets prompted in the App. The suggested first factors are 'silent' to the user and the attacker is unlikely to have knowledge or access to this factor  
+With regards to the first factor 'password' option you might say: "Well but that is a terrible experience!"Indeed it is: it makes the login processes lengthy again and weren't we about to phase out passwords forever?  
+So requiring the use of FIDO2/Windows Hello or Certificate Based Authentication (CBA) as a first factor is highly recommended here. This option is most definitely the **most silent** method for the user, but will require additional configuration and maintenance for admins...
 
 ## Option 2
 
 At least enable 'number matching' on the authentication method side. This way even if the Authenticator prompt occurs (still annoying) the target won't have a clue which number (from 1 to 99) has to be inputted and will most likely deny or ignore the request.
 
-Last week Microsoft introduced [additional Authenticator App authentication method policies][1]. Number matching can now be enabled on the 'push notification' method, which I highly recommend to enable immediately for everyone, even though the feature is in preview.
+Last week Microsoft introduced [additional Authenticator App authentication method policies][2]. Number matching can now be enabled on the 'push notification' method, which I highly recommend to enable immediately for everyone, even though the feature is in preview.
 
 ## Option 3
 
@@ -87,7 +87,7 @@ The procedure looks like this:
    5. joining and leaving the group should be set to 'Closed'
 
 **:information_source: INFO**  
-While existing Authenticator App entries will still work for the account, the wrong (old) UPN is displayed in the App, so the user should enter the Microsoft Account 'My Sign-ins -> Security' [page][2] and remove any old Authenticator App entry (both on that page and in the Authenticator App) and re-add using the new UPN.
+While existing Authenticator App entries will still work for the account, the wrong (old) UPN is displayed in the App, so the user should enter the Microsoft Account 'My Sign-ins -> Security' [page][3] and remove any old Authenticator App entry (both on that page and in the Authenticator App) and re-add using the new UPN.
 {: .notice--info}
 
 **:information_source: INFO**  
@@ -146,7 +146,8 @@ It would be nice if Microsoft at some point acknowledges the underlying fundamen
 
 <!-- Begin References -->
 
-[1]: https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-additional-context
-[2]: https://mysignins.microsoft.com
+[1]: https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods
+[2]: https://learn.microsoft.com/en-us/azure/active-directory/authentication/how-to-mfa-additional-context
+[3]: https://mysignins.microsoft.com
 
 <!-- End References -->
