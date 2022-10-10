@@ -17,7 +17,7 @@ tags:
   - MicrosoftExchange
   - AzureAD
   - MFA
-  - Authenticator App
+  - MicrosoftAuthenticatorApp
   - Outlook
 toc: true
 toc_label: "Contents"
