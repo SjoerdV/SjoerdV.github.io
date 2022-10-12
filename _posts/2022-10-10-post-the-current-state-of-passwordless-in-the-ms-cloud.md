@@ -5,7 +5,7 @@ last_modified_at: 2022-10-11T10:00:00+02:00
 og_publish_date: 2022-10-11T12:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
-  og_image: /assets/images/post-2022-10-10-post-the-current-state-of-passwordless-in-the-ms-cloud-001.png
+  og_image: /assets/images/post-the-current-state-of-passwordless-in-the-ms-cloud-001.png
 categories:
   - blog
 tags:
@@ -32,7 +32,7 @@ toc_icon: "list-alt"
 Basically it ushers in 'The Future of Authentication', promising easy, but very secure, access to your Cloud resources by eliminating the need to think up, remember (and periodically change!) the traditional password that goes with a user name.  
 This is a great idea because easy to remember passwords are still one of the major attack vectors any hardcore hacker or 'script kiddie' will employ to hack *all y'all*.
 
-![The Current State of 'Password-less' in the Microsoft Cloud](/assets/images/post-2022-10-10-post-the-current-state-of-passwordless-in-the-ms-cloud-001.png "The Current State of 'Password-less' in the Microsoft Cloud")  
+![The Current State of 'Password-less' in the Microsoft Cloud](/assets/images/post-the-current-state-of-passwordless-in-the-ms-cloud-001.png "The Current State of 'Password-less' in the Microsoft Cloud")  
 *Go Password-less!*
 {: style="border: 1px solid grey; padding:16px; font-size:10px"}
 
