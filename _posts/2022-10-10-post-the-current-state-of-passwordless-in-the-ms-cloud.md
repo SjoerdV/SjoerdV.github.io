@@ -1,8 +1,8 @@
 ---
 title: "The Current State of 'Password-less' in the Microsoft Cloud"
-date: 2022-10-10T10:00:00+02:00
-last_modified_at: 2022-10-10T10:00:00+02:00
-og_publish_date: 2022-10-10T12:00:00+02:00
+date: 2022-10-11T10:00:00+02:00
+last_modified_at: 2022-10-11T10:00:00+02:00
+og_publish_date: 2022-10-11T12:00:00+02:00
 header:
   # image: /assets/images/header-banner.png
   og_image: /assets/images/post-2022-10-10-post-the-current-state-of-passwordless-in-the-ms-cloud-001.png
@@ -22,6 +22,7 @@ tags:
   - MicrosoftAuthenticatorApp
   - FIDO2
   - CBA
+  - Intune
 toc: true
 toc_label: "Contents"
 toc_icon: "list-alt"
@@ -35,31 +36,42 @@ This is a great idea because easy to remember passwords are still one of the maj
 *Go Password-less!*
 {: style="border: 1px solid grey; padding:16px; font-size:10px"}
 
-While most organizations especially the ones using Big Tech's ecosystems have already added MFA to the mix, making pwning[^1] the password of some unsuspecting user less relevant. However, while it is well known that a second authentication factor consisting of a only 'SMS' or 'alternate email' can be hijacked quite easily (Channel-jackable), the [latest hacking technique][2] employs a MitM to spoof the Big Tech logon page and redirect the acquired tokens to the attacker, who will now have access to the users data (if no other measure have been put into place). This can happen even when the user is using the Microsoft Authenticator App push or notification features as their second authentication factor (Channel-jackable).
+Most organizations, especially the ones using Big Tech's ecosystems, have already added MFA to the mix, making pwning[^1] the password of some unsuspecting user less relevant. However, while it is well known that a second authentication factor consisting of a only 'SMS' or 'alternate email' can be hijacked quite easily (Channel-jackable), the [latest hacking technique][2] employs a MitM to spoof the Big Tech logon page and redirect the acquired tokens to the attacker, who will now have access to the users data (if no other measure have been put into place). This can happen even when the user is using the Microsoft Authenticator App push or notification features as their second authentication factor (Channel-jackable).
 
 **:heavy_exclamation_mark: Ouch!**  
 {: .notice--warning}
 
 The technique is generally used in Real-Time 'spear phishing' campaigns (ie. very targeted!) and may happen because the Microsoft authentication servers are not verifying the requestor URL as part of the authentication sequence.
 
-So, in my search for alternate options to be more secure on the wild wild I came to a sad conclusion.  
-Still there are no ‘Open’, ‘Cross-platform’, ‘Phishing resistant’ [Password-less sign-in methods][1] for the Microsoft Cloud after the concept had been introduced in 2018.
+Another method that is quite popular relies on the set-up that the Microsoft Authenticator App is the only element in the authentication process (satisfying both first and second factors). In this scenario the attacker only has to know the target's sign-in name (UPN) to start 'annoying' the target with random push notifications on their App which can lead to MFA fatigue.
 
-What are the options?
+So, in my search for alternate options which are more secure in the 'wild wild web' authentication conundrums I came to a sad conclusion.  
+There are no ‘Open’, ‘Cross-platform’, ‘Phishing resistant’ [Password-less sign-in methods][1] for the Microsoft Cloud, even after the concept had been introduced in 2018 already.
 
-- **Windows Hello for Business** -> Windows only. Period! But that’s fine, works nicely and remains 'phishing proof'. Great if you want all your users firmly in the Microsoft ecosystem.
+What *are* the options available?
+
+- **Windows Hello for Business** -> Windows only. Period! But that’s fine, works nicely for the most part (excluding the issues with the [latest Windows 11 22H2 update][6]) and remains 'phishing proof'.  
+Great option if you want and can have all your users firmly in the Microsoft ecosystem.
 - **Microsoft Authenticator App** -> *WARNING*: These Apps (available on iOS and Android) are like I previously explained: vulnerable to [phishing][2] AND [MFA Fatigue][3]. Otherwise this option is great for universal access anywhere and from every device.
-- **FIDO2 security keys** -> *WARNING*: Vendor lock-in detected. These 'hardware tokens' are only ‘universally usable’ in Windows context with ‘specific’ Chromium browsers. I won’t consider [FIDO2][4] a viable option until [full Linux+Firefox and Mobile][4] support is available.  
-*Here follows an opinion*: The dependence of this 'FIDO2 Standard' on implementers who, of course, favor their own clients and software (in this case Microsoft favoring Windows and Edge), effectively forgetting about alternate ecosystems, together with the 'closed nature' of the hardware development might cause this Standard to self-destruct at some point.  
+- **FIDO2 security keys** -> *WARNING*: Vendor lock-in detected. These 'hardware tokens' are only ‘universally usable’ in Windows context with ‘specific’ Chromium browsers. I won’t consider [FIDO2][4] a viable option to access the Microsoft Cloud until [full Linux+Firefox and Mobile][4] support is available.  
+*Here follows an opinion*: The dependence of this 'FIDO2 Standard' on implementers who, of course, favor their own clients and software (in this case Microsoft favoring Windows and Edge), effectively (almost) forgetting about alternate ecosystems, together with the 'closed nature' of the hardware development might cause this Standard to self-destruct at some point.  
 This state of affairs should be considered a serious risk for any (aspiring) CISO to invest in this method.
 
-Finally, although not truly Password-less, because the 'password method' needs to remain enabled for this Authentication Method to work (at least in the Preview), I'd like to mention the following method anyway because it might just emerge as the über-Password-less option in the future (I have high hopes):
+Finally, although not truly Password-less, because the 'password method' needs to remain enabled for this Authentication Method to work (at least in the Preview), I would like to mention the following method anyway because it might just emerge as the über-Password-less option in the future (I have high hopes in any case):
 
-- **Certificate Based Authentication** (in Preview) -> *WARNING*: Certificates have to be linked to User Sign-in name (UPN) instead of requiring only certificate Thumbprint matching on an Azure AD account property that’s being signed in AND Mobile support is tricky AND managing the CRL location is a burden AND managing the PKI infrastructure (Especially lack of OCSP) is not on par in this Preview. [Read some more about CBA][5].
+- **Certificate Based Authentication** (in Preview) -> *WARNING*: Certificates have to be linked to User Sign-in name (UPN) instead of requiring only certificate Thumbprint matching on any Azure AD account property **AND** Mobile support is tricky **AND** managing the CRL location is a burden **AND** managing the PKI infrastructure (Especially lack of OCSP and LDAP revocation checking) is not on par in this Preview. [Read some more about CBA][5].  
+Earlier this year Microsoft updated this offering in such a way that an on premises ADFS set-up is no longer required to enable CBA. All the authentication assets are now configured by Azure AD (and Intune).
+Most of the hurdles mentioned above can be made 'manageable' by using Intune and its Simple Certificate Enrollment Protocol (SCEP) profiles. I found a [great blog][8] about just this subject  
+*Here follows an opinion*: But there are some things I dislike about this approach.
+  - I would like to add CBA to un-managed devices (No Intune!) as well
+  - Furthermore [requiring an on-premises Windows Server machine joined to a local AD][7] that is running the Intune connector seems both archaic and like yet another vendor lock-in / up-selling strategy.
+  - I would like to see an option to have the end user upload their own certificate (the public part) as a sign-in method to the Security info section of their Account Portal. I would imagine that Microsoft can make it so that, on upload, the Subject Key Identifier (SKI) hash of the Public Key is automatically added to the Azure AD profile after the certificate is checked to originate from the correct Root CA certificate and that the hash is configured to serve as 'binding' during authentication. The private key being on the Users machine/browser, of course.
 
-So even though enrolling and managing these Device-based User certificates is a hassle, it still might become the only phishing resistant, cross-platform and cross-browser authentication method because the techniques involved are very old and well established on all platforms.
+So even though enrolling and managing these User certificates is a hassle, together with a lesser user experience compared to FIDO2, it still might become the only phishing resistant, cross-platform and cross-browser authentication method because the techniques involved are very well established on all platforms.
 
 Will we see this method leaving behind the proprietary FIDO2 hardware solutions, while it becomes more mature? We will see.
+
+As a parting note: I would really like to be able to use CBA (as a first factor, effectively replacing a password) in combination with the Authenticator App as a second factor at some point in the future. This would prevent both phishing and MFA fatigue in all likely business scenario's. Sadly this configuration is not (yet?) possible, so [join the discussion][9].
 
 <!-- Begin FootNotes -->
 [^1]:What does it all mean -> <https://haveibeenpwned.com/About>
@@ -102,6 +114,7 @@ Will we see this method leaving behind the proprietary FIDO2 hardware solutions,
 *[CBA]: Certificate Based Authentication
 *[OCSP]: The Online Certificate Status Protocol is an Internet protocol used for obtaining the revocation status of an X.509 digital certificate.
 *[CRL]: In cryptography, a certificate revocation list (or CRL) is "a list of digital certificates that have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should no longer be trusted"
+*[ADFS]: Active Directory Federation Services, a software component developed by Microsoft, can run on Windows Server operating systems to provide users with single sign-on access to systems and applications located across organizational boundaries.
 
 <!-- End Abbreviations -->
 
@@ -112,5 +125,9 @@ Will we see this method leaving behind the proprietary FIDO2 hardware solutions,
 [3]: /blog/post-greatest-options-to-beat-mfa-fatigue/
 [4]: https://learn.microsoft.com/en-us/azure/active-directory/authentication/fido2-compatibility
 [5]: https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-certificate-based-authentication
+[6]: https://www.bleepingcomputer.com/news/microsoft/windows-11-22h2-blocked-due-to-windows-hello-issues-on-some-systems/
+[7]: https://learn.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure#servers-and-server-roles
+[8]: https://hmaslowski.com/f/azure-ad-certificate-based-authentication-cba-in-public-preview
+[9]: https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad/cba-mfa-and-aadsts54008-certificate-is-not-supported-as-first/m-p/3422036
 
 <!-- End References -->
