@@ -77,8 +77,8 @@ So while the Microsoft Graph PowerShell SDK is available and the peeps of the Pn
 A great Module is available, [which I recommended in a previous blog post][9], called [EasyGraph][10].  
 BUT... wait for it. The aforementioned and acclaimed PnP.PowerShell Module developers have added that same 'query the MS Graph directly' functionality in their Module. Now we can benefit from:
 
-- both the vast array of cmd-lets already present in this Module;
-- using all the different authentication methods that this Module provides;
+- the vast array of cmd-lets already present in this Module;
+- all the different authentication methods that this Module provides;
 - [having the option to query the Graph][16] **directly**.
 
 FANTASTIC!
