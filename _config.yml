@@ -29,6 +29,10 @@ search: true
 twitter:
   username: "sjoerddevalk"
 
+mastodon:
+  username: "@sjosjo@mas.to"
+  url: https://mas.to/@sjosjo"
+
 repository  : "sjoerdv/sjoerdv.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
 #comments:
 #  provider: "utterances"
@@ -88,12 +92,15 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/company/spdevalk"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/sjoerddevalk"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/f4lc0n99/"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mas.to/@sjosjo"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/sjoerddevalk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SjoerdV"
@@ -103,6 +110,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/f4lc0n99/"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mas.to/@sjosjo"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/sjoerddevalk"
