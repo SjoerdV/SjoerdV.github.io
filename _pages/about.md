@@ -32,18 +32,17 @@ Hi I'm <phoneme alphabet="ipa" ph="/ʃuɝd/ ">Sjoerd</phoneme> <input type="butt
 </div>
 <br />
 <div>
-  <div style="font-size:14px">#CloudProductivity | #MicrosoftCloud |<br />
-  <b>#ModernWorkplace</b> |<br />
-  <b>#Microsoft365</b> | <b>#AzureAD</b> | <br />
-  <b>#MicrosoftTeams</b> | <b>#SharePoint</b> | #WVD |<br />
-  <i>#Compliance</i> | <b>#AzureDevOps</b> | #Intune |<br />
-  <i>#Security</i> | #MCAS | #ATP |<br />
-  #StrategyAdvice | <i>#ITGovernance</i> |<br />
-  <i>#ArchitectureDesign</i> | #Portal | #Intranet |<br />
-  <code>#ProcessAutomation</code> | <b><code>#Powershell</code></b> | <code>#PowerPlatform</code> |<br />
-  #Workflow | #Forms | #ECM | #WCM |<br />
-  #DocumentManagement | #EnterpriseSearch |<br />
-  #TaxonomyDevelopment
+  <div style="font-size:14px">#CloudProductivity | #MicrosoftCloud <br />
+  <b>#ModernWorkplace</b> | #SaaS | #iPaaS <br />
+  <b>#Microsoft365</b> | <b>#AzureAD</b> <br />
+  <b>#MicrosoftTeams</b> | <b>#SharePoint</b> | #OneDrive <br />
+  <i>#Security</i> | <i>#Compliance</i> <br />
+  <b>#AzureDevOps</b> | <b>#VisualStudioCode</b> | <b><code>#PowerShell</code></b> <br />
+  <code>#ProcessAutomation</code> | #StrategyAdvice | <i>#ITGovernance</i> <br />
+  <i>#ArchitectureDesign</i> | #Portal | #Intranet <br />
+  <code>#PowerPlatform</code> | #Workflow | #Forms | <b>#PowerApps</b> | <b>#PowerAutomate</b> <br />
+  #DocumentManagement | #EnterpriseSearch<br />
+  #ECM | #WCM | #TaxonomyDevelopment
   </div>
 </div>
 
