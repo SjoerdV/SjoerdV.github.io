@@ -19,7 +19,7 @@ url: https://www.spdevalk.nl
 og_image: /assets/images/Logo.png
 description: >- # this means to ignore newlines until "baseurl: "
   This site represents Sjoerd's open source blog initiative.
-  I will mainly blog about Microsoft Tech and Powershell code.
+  I will mainly blog about Microsoft Tech and Powershell code, but maybe something else entirely...
   Enjoy!
 twitter_username: sjoerddevalk
 github_username: SjoerdV
@@ -135,7 +135,7 @@ defaults:
         - title: "Role"
           # image: /assets/images/Logo.png
           # image_alt: "logo"
-          text: "Microsoft Cloud Productivity & Modern Workplace Consultant"
+          text: "Freelance Microsoft Cloud SaaS & iPaas Solution Consultant"
         - title: "Responsibilities"
           text: "Giving it all to improve continuously."
   # _posts
