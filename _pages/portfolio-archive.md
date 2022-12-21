@@ -4,7 +4,7 @@ title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 entries_layout: grid
-classes: wide
+classes: single
 ---
 
 {% include base_path %}
