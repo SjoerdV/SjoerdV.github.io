@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl: "
   Enjoy!
 twitter_username: sjoerddevalk
 github_username: SjoerdV
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 twitter:
