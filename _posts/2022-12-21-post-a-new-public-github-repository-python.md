@@ -11,13 +11,15 @@ categories:
 tags:
   - Awareness
   - Python
+  - PowerShell
+  - CrossPlatform
   - Linux
 toc: true
 toc_label: "Contents"
 toc_icon: "list-alt"
 ---
 
-First off, I am **still** a great fan of PowerShell. It is a very versatile and powerful scripting language that, ever since the '.NET Core revolution', works cross-platform as well. Awesome! Especially the tight integration to the Microsoft Cloud eco-system and the Windows OS is a no-brainer for me, professionally speaking.
+First off, I am **still** a great fan of PowerShell. It is a very versatile and powerful scripting language that, ever since the '.NET Core revolution', works cross-platform as well. Awesome! Especially the tight integration to the Microsoft Cloud eco-system and the Windows OS is a 'no brainer' for me, professionally speaking.
 
 Except... it works cross-platform for only those classes, modules and libraries that are available in .NET Core, which might not be enough.
 
@@ -46,7 +48,7 @@ Both languages can be used efficiently in a single IDE though. [Visual Studio Co
 
 Reference: [https://github.com/SjoerdV/PublicPythonProjects/tree/main/pwsh_vs_python](https://github.com/SjoerdV/PublicPythonProjects/tree/main/pwsh_vs_python)
 
-In VSCode, I love the way PowerShell handles JSON/XML objects, compared to Python. PowerShell allows you to navigate the objects through intellisense auto complete (using the CTRL+. combination) far better than the clunky way you have to write out the object references in Python.
+In VSCode, I love the way PowerShell handles JSON/XML objects, compared to Python. PowerShell allows you to navigate the objects through intellisense auto complete (using the CTRL+SPACE combination) far better than the clunky way you have to write out the object references in Python.
 
 ![Intellisense auto complete when interacting with JSON objects in PowerShell](/assets/images/screen20221222012427.png)
 *Intellisense auto complete when interacting with JSON objects in PowerShell*
