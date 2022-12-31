@@ -20,6 +20,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 Description:
 This program will add keywords (tags) to Jekyll posts (ie. markdown files with YAML frontmatter).
 It is designed to work in conjunction with a VSCode 'Tasks' and accompanying 'Keyboard Shortcut'.
+An example 'tasks.json' file is provided in the same directory of this script. NOTE: You might need to merge this configuration with your existing Static Site tasks configuration file.
+An example 'keybindings.json' file is provided in the same directory of this script. NOTE: you will need to copy this keybinding configuration to your own VSCode 'User' configuration.
 
 Prerequisites:
 * Python3 3.9+
@@ -127,7 +129,7 @@ def main(argv):
         current_tags = post["tags"]
         if len(current_tags) > 0:
             overwrite = input('\r\nWARNING: Tags '+str(current_tags)+' are already present. Do you wish to overwrite? (Y/N)')
-    except KeyError:
+    except (KeyError, TypeError):
         print("'tags' metdata does not exist. Continuing...")
         overwrite = 'Y'
 
