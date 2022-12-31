@@ -18,12 +18,37 @@
       "label": "Build",
       "type": "shell",
       "command": "bundle exec jekyll build",
-      "group": "build",
       "problemMatcher": ["$jekyll-error", "$jekyll-warning"],
       "group": {
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "display_file",
+      //"command": "${command:workbench.action.files.save}"
+      "type": "shell",
+      "command": "echo ${file}"
+    },
+    {
+      "label": "add_keywords",
+      "type": "shell",
+      "command": "python3 add_keyphrases_to_post.py -i \"${file}\"",
+      "options": {
+        "cwd": "${workspaceFolder}/.vscode/scripts"
+      },
+      "presentation": {
+        "reveal": "never",
+        "focus": true
+      }
+    },
+    {
+      "label": "display_file_and_add_keywords", // Add a keyboard shortcut for this task. Ex. CTRL+SHIFT+F10
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "display_file",
+        "add_keywords"
+      ]
     }
   ]
 }
