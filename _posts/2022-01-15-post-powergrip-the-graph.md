@@ -1,18 +1,32 @@
 ---
-title: "Getting a Powerful Grip on the Graph"
-date: 2022-01-15T18:00:00+02:00
-last_modified_at: 2022-01-15T18:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/post-powergrip-the-graph-001.png
 categories:
-  - blog
+- blog
+date: 2022-01-15 18:00:00+02:00
+header:
+  og_image: /assets/images/post-powergrip-the-graph-001.png
+last_modified_at: 2022-01-15 18:00:00+02:00
 tags:
-  - Microsoft365
-  - MicrosoftGraph
-  - PowerShell
-  - EasyGraph
+- MicrosoftGraphPowershellSdk
+- GraphRestApi
+- FullGraphRestApiDocumentation
+- ApisMicrosoft
+- MicrosoftGraph
+- MsGraphInteractions
+- ModernDayApis
+- EasygraphPowershell
+- GraphEndpoints
+- RestApiEndpoints
+- Api
+- ProductivityCloudServices
+- RestEndpoints
+- ApiSpecification
+- PublicApi
+- Microsoft365
+- PowerShell
+- EasyGraph
+title: Getting a Powerful Grip on the Graph
 ---
+
 The Microsoft Graph is the latest of APIs Microsoft provides for their productivity cloud services. In the past nearly every individual workload in the Microsoft 365[^1] ecosystem had at least one public API made available for broad consumption. This meant Exchange Online, SharePoint Online/OneDrive, Azure AD, etc. offered their own unique ways of requesting and manipulating data and configuration.
 
 ![Getting a Powerful Grip on the Graph](/assets/images/post-powergrip-the-graph-001.png "Getting a Powerful Grip on the Graph"){: style="border: 1px solid grey; padding:16px"}

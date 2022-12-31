@@ -1,29 +1,44 @@
 ---
-title: "Sharing is caring! Or taking your next step toward better SaaS Governance and External Identity Management for Microsoft 365 - Part 1 of 3"
-date: 2020-07-13T10:00:00+02:00
-last_modified_at: 2020-07-13T10:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/2020-07-11-01-08-42.png
 categories:
-  - blog
+- blog
+date: 2020-07-13 10:00:00+02:00
+header:
+  og_image: /assets/images/2020-07-11-01-08-42.png
+last_modified_at: 2020-07-13 10:00:00+02:00
 tags:
-  - InformationManagement
-  - IdentityManagement
-  - DataGovernance
-  - MicrosoftTeams
-  - SharingIsCaring
-  - AzureAD
-  - AzureADB2B
-  - ConditionalAccess
-  - MCAS
-  - Microsoft365
-  - AzureDevOps
-  - AzurePipelines
-  - PlatformOps
-  - PlatformAsCode
-  - StarterKit
+- MicrosoftTeamsPotential
+- MicrosoftCloud
+- MicrosoftTeams
+- ExternalSharing
+- MicrosoftCloudAppSecurity
+- MicrosoftTeamsCampaign
+- AzureServices
+- MostMajorCloudServices
+- ExternalSharingConfiguration
+- RelaxedExternalSharingSettings
+- CloudServiceTenant
+- CompliantAzureB2BConcept
+- Cloud
+- MicrosoftAzurePipelines
+- AzureAdEcosystems
+- InformationManagement
+- IdentityManagement
+- DataGovernance
+- SharingIsCaring
+- AzureAD
+- AzureB2B
+- ConditionalAccess
+- MCAS
+- Microsoft365
+- AzureDevOps
+- AzurePipelines
+- PlatformOps
+- PlatformAsCode
+- StarterKit
+title: Sharing is caring! Or taking your next step toward better SaaS Governance and
+  External Identity Management for Microsoft 365 - Part 1 of 3
 ---
+
 This is the first part of a three part blog series, building on the premise to open up your Microsoft 365 Cloud Service tenant to External Parties. This first part will describe deciding on *the level* of 'external sharing' your organization cares to embrace.
 
 ## Security vs Usability

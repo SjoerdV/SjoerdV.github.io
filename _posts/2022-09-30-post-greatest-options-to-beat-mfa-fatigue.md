@@ -1,27 +1,31 @@
 ---
-title: "The Greatest Options to Beat MFA Fatigue"
-date: 2022-09-30T10:00:00+02:00
-last_modified_at: 2022-09-30T10:00:00+02:00
-og_publish_date: 2022-09-30T12:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/post-greatest-options-to-beat-mfa-fatigue-001.jpeg
 categories:
-  - blog
+- blog
+date: 2022-09-30 10:00:00+02:00
+header:
+  og_image: /assets/images/post-greatest-options-to-beat-mfa-fatigue-001.jpeg
+last_modified_at: 2022-09-30 10:00:00+02:00
+og_publish_date: 2022-09-30 12:00:00+02:00
 tags:
-  - Awareness
-  - Security
-  - Privacy
-  - Microsoft365
-  - MicrosoftTeams
-  - MicrosoftExchange
-  - AzureAD
-  - MFA
-  - MicrosoftAuthenticatorApp
-  - Outlook
+- MicrosoftAuthenticatorApp
+- AnnoyingImmediateAuthenticatorAppNotifications
+- AdditionalAuthenticatorAppAuthenticationMethodPolicies
+- AuthenticatorApps
+- AuthenticatorAppPrompt
+- AuthenticatorAppEntries
+- AuthenticatorApp
+- AuthenticatorAppRequest
+- MfaPrompt
+- AuthenticatorPrompt
+- MfaFatigue
+- OldAuthenticatorAppEntry
+- Authenticator
+- AzureAdConditionalAccessPolicy
+- AuthenticationSequence
+title: The Greatest Options to Beat MFA Fatigue
 toc: true
-toc_label: "Contents"
-toc_icon: "list-alt"
+toc_icon: list-alt
+toc_label: Contents
 ---
 
 Lately, a lot has been said about the phenomenon called 'MFA fatigue'. This method of gaining access to someone's account (we will focus on (Microsoft 365[^1] Work/School accounts) plays on the tendency of people to be 'done with it' which will make them press that 'Approve' button in their authenticator apps at some point. This is especially the case where the Microsoft Authenticator App 'push notifications' (without number matching) feature has been configured. Attackers only have to know the sign-in name, which usually is the same as their email address, to start annoying people. And the target only has to press the Approve button on the MFA prompt. Things are different when:
@@ -52,7 +56,7 @@ So requiring the use of FIDO2/Windows Hello or Certificate Based Authentication 
 
 ## Option 2
 
-At least enable 'number matching' on the authentication method side. This way even if the Authenticator prompt occurs (still annoying) the target won't have a clue which number (from 1 to 99) has to be inputted and will most likely deny or ignore the request.
+At least enable 'number matching' on the 'authentication method' configuration blade. This way even if the Authenticator prompt occurs (still annoying) the target won't have a clue which number (from 1 to 99) has to be inputted and will most likely deny or ignore the request.
 
 Last week Microsoft introduced [additional Authenticator App authentication method policies][2]. Number matching can now be enabled on the 'push notification' method, which I highly recommend to enable immediately for everyone, even though the feature is in preview.
 

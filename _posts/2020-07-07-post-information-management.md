@@ -1,19 +1,33 @@
 ---
-title: "Information Management. More important than ever."
-date: 2020-07-07T20:29:58+02:00
-last_modified_at: 2020-07-07T20:29:58+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/2020-07-07-20-39-29.png
 categories:
-  - blog
+- blog
+date: 2020-07-07 20:29:58+02:00
+header:
+  og_image: /assets/images/2020-07-07-20-39-29.png
+last_modified_at: 2020-07-07 20:29:58+02:00
 tags:
-  - InformationManagement
-  - ShadowIT
-  - MicrosoftTeams
-  - Provisioning
-  - AzureAD
-  - Microsoft365
+- PracticalLittleDropboxAccount
+- InformationManagement
+- DigitalAssets
+- ErpContent
+- CompanyData
+- CloudEra
+- SuchShadyItUsage
+- BusinessContext
+- Business
+- Emails
+- Organization
+- Files
+- Providers
+- CompanyPolicy
+- Services
+- InformationManagement
+- ShadowIT
+- MicrosoftTeams
+- Provisioning
+- AzureAD
+- Microsoft365
+title: Information Management. More important than ever.
 ---
 
 `Information Management` has gained even more weight in the cloud era, especially given the enormous range and variety of providers and services that can (may?) be used within the business context.

@@ -1,34 +1,42 @@
 ---
-title: "The path to my new messaging app - A Utopian tale"
-date: 2022-08-01T12:00:00+02:00
-last_modified_at: 2022-08-01T12:00:00+02:00
-og_publish_date: 2022-08-01T12:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/post-path-to-my-new-messaging-app-001.png
 categories:
-  - blog
+- blog
+date: 2022-08-01 12:00:00+02:00
+header:
+  og_image: /assets/images/post-path-to-my-new-messaging-app-001.png
+last_modified_at: 2022-08-01 12:00:00+02:00
+og_publish_date: 2022-08-01 12:00:00+02:00
 tags:
-  - Marketing
-  - SurveillanceCapitalism
-  - Big Brother
-  - Big Tech
-  - Bigots
-  - Awareness
-  - Security
-  - Privacy
-  - Anonymity
-  - Tor
-  - Messaging
-  - Sustainability
-  - Energy
-  - Hydrogen
-  - Government 2.0
-  - Democracy
-  - Economy
+- Marketing
+- SurveillanceCapitalism
+- Big Brother
+- Big Tech
+- Bigots
+- Awareness
+- Security
+- Privacy
+- Anonymity
+- Tor
+- Messaging
+- Sustainability
+- Energy
+- Hydrogen
+- Government 2.0
+- Democracy
+- Economy
+- WhatsappAlternative
+- Whatsapp
+- FutureSociety
+- MessagingApp
+- PeacefulFuture
+- Chat
+- TechnologicalExploits
+- MessagingSystem
+- ParamountIssues
+title: The path to my new messaging app - A Utopian tale
 toc: true
-toc_label: "Contents"
-toc_icon: "list-alt"
+toc_icon: list-alt
+toc_label: Contents
 ---
 
 While I have to start this post with some alarming observations about the state of our world, I also aim to provide some ideas to try and tackle the very big challenges of our time. These musings may sound radical and are indeed Utopian in nature and might not even be 'novel' when regarded separately. But hey, mainly I just need to write something down, for Pete's sake.

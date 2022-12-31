@@ -1,22 +1,36 @@
 ---
-title: "Protect your privates! But first you'll have to find them..."
-date: 2020-08-03T10:00:00+02:00
-last_modified_at: 2020-08-03T10:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/teams-together-mode-big-four.png
 categories:
-  - blog
+- blog
+date: 2020-08-03 10:00:00+02:00
+header:
+  og_image: /assets/images/teams-together-mode-big-four.png
+last_modified_at: 2020-08-03 10:00:00+02:00
 tags:
-  - InformationManagement
-  - DataGovernance
-  - GDPR
-  - Privacy
-  - Competition
-  - Awareness
-  - Outlook
-  - PowerShell
+- AnnouncementsGalore
+- Announcements
+- NewFeatures
+- AzureAdEcosystems
+- FeatureSprawl
+- TodaysMicrosoft
+- HistoricDeployments
+- BusinessOverview
+- OpinionMicrosoft
+- MicrosoftSaasProducts
+- MicrosoftAzurePipelines
+- AzureServices
+- Trend
+- AzureAdServices
+- InformationManagement
+- DataGovernance
+- GDPR
+- Privacy
+- Competition
+- Awareness
+- Outlook
+- PowerShell
+title: Protect your privates! But first you'll have to find them...
 ---
+
 When 'getting a business overview', 'mixing business with pleasure' and 'storming consumer markets' come together. Better pay attention and stay focused!
 
 ## Announcements galore

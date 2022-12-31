@@ -1,21 +1,36 @@
 ---
-title: "Embarking on the 'Open Source Note Taking' journey"
-date: 2019-05-20T16:00:00+01:00
-last_modified_at: 2019-11-22T16:00:00+01:00
-header:
-  image: /assets/images/ConvertOneNote2MarkDown.png  
-  og_image: /assets/images/ConvertOneNote2MarkDown-th.png
 categories:
-  - blog
+- blog
+date: 2019-05-20 16:00:00+01:00
+header:
+  image: /assets/images/ConvertOneNote2MarkDown.png
+  og_image: /assets/images/ConvertOneNote2MarkDown-th.png
+last_modified_at: 2019-11-22 16:00:00+01:00
 tags:
-  - GitHub
-  - OneNote
-  - Markdown
-  - Visual Studio Code
-  - Conversion
-  - PowerShell
-  - Open Source
+- OnenoteDevelopmentStop
+- OnenoteNotebooks
+- Onenote
+- OnenoteArtifacts
+- OnenoteDefinitionSource
+- OnenoteStructure
+- MicrosoftDocsPages
+- Notes
+- OfficeProPlus
+- AttractiveNotes
+- Microsoft
+- SideNote
+- MarkdownDefinitionSource
+- Note
+- GitHub
+- Markdown
+- VisualStudioCode
+- Conversion
+- PowerShell
+- OpenSource
+- Foss
+title: Embarking on the 'Open Source Note Taking' journey
 ---
+
 Every once in a while you start rethinking all the digital tools you use to organize yourself, maybe even to take some of those methods to business life and share with colleagues. This is a story about such a shift in tooling.
 
 One of the things I often do (a lot of people do) is 'taking notes' and as a Microsoft-aficionado I am fondly using OneNote[^2] up until recently.

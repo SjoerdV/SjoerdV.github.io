@@ -1,32 +1,42 @@
 ---
-title: "The importance of solid Software Architecture in a cloud world"
-date: 2020-08-12T13:00:00+02:00
-last_modified_at: 2020-08-12T13:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/quint2.jpg
 categories:
-  - blog
+- blog
+date: 2020-08-12 13:00:00+02:00
+header:
+  og_image: /assets/images/quint2.jpg
+last_modified_at: 2020-08-12 13:00:00+02:00
 tags:
-  - InformationManagement
-  - DataGovernance
-  - SoftwareArchitecture
-  - SoftwareQuality
-  - QUINT2
-  - Awareness 
-  - PowerPlatform
-  - PowerApps
-  - PowerAutomate 
-  - PowerShell
-  - Reliability 
-  - Efficiency
-  - Portability
-  - Maintainability
-  - Testing
-  - Reusability  
-  - Manageability
-  - Licensing
+- QualityFrameworkModel
+- Quint2Model
+- QualityProperties
+- QualityProperty
+- Quint2
+- QualityCheck
+- GoodQualitySoftware
+- BasicDesignFlaws
+- SolidSoftwareArchitecture
+- IsoModel
+- Quality
+- InformationManagement
+- DataGovernance
+- SoftwareArchitecture
+- SoftwareQuality
+- Awareness
+- PowerPlatform
+- PowerApps
+- PowerAutomate
+- PowerShell
+- Reliability
+- Efficiency
+- Portability
+- Maintainability
+- Testing
+- Reusability
+- Manageability
+- Licensing
+title: The importance of solid Software Architecture in a cloud world
 ---
+
 When I was well into my master studies on 'Artificial Intelligence' one of the topics covered in my curriculum of 2001 was concerning Software Architecture. In other words: *"How to build good quality software"*.
 
 The image that stuck with me ever since was that of the Quality Framework Model (ISO9126) called QUINT which was later updated to the [QUINT2 extended ISO model][5].

@@ -1,29 +1,43 @@
 ---
-title: "Fancy a game of chess?"
-date: 2020-08-24T08:00:00+02:00
-last_modified_at: 2020-08-24T08:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/chess-player-thinks-about-move-in-chess-vector-25152554.jpg
 categories:
-  - blog
-tags:  
-  - SoftwareArchitecture
-  - SoftwareQuality
-  - Marketing
-  - Licensing
-  - Awareness
-  - PowerPlatform
-  - PowerApps
-  - PowerAutomate
-  - AzureIPaas
-  - Portability
-  - Maintainability
-  - Reusability
-  - Manageability
-  - Securability
-  - Chess
+- blog
+date: 2020-08-24 08:00:00+02:00
+header:
+  og_image: /assets/images/chess-player-thinks-about-move-in-chess-vector-25152554.jpg
+last_modified_at: 2020-08-24 08:00:00+02:00
+tags:
+- ChessPlaying
+- OldFashionedGame
+- Chess
+- ChessBoard
+- Games
+- PicnicBench
+- ChessPieces
+- Drink
+- Game
+- Beer
+- Board
+- NiceGame
+- ChessPlayer
+- Enjoyment
+- Opponent
+- SoftwareArchitecture
+- SoftwareQuality
+- Marketing
+- Licensing
+- Awareness
+- PowerPlatform
+- PowerApps
+- PowerAutomate
+- AzureIpaas
+- Portability
+- Maintainability
+- Reusability
+- Manageability
+- Securability
+title: Fancy a game of chess?
 ---
+
 A couple of weeks ago I really had the urge of playing an old fashioned game of chess. You know, with an actual board, playing someone in real life, maybe have a chat or a drink while playing... I am 'corny' that way.
 
 So I went to my favorite city park to see if any games were being played.

@@ -1,22 +1,31 @@
 ---
-title: "A New Public GitHub Repository - Python"
-date: 2022-12-21T10:00:00+02:00
-last_modified_at: 2022-12-21T10:00:00+02:00
-og_publish_date: 2022-12-21T10:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/post-a-new-public-repo-python-001.png
 categories:
-  - blog
+- blog
+date: 2022-12-21 10:00:00+02:00
+header:
+  og_image: /assets/images/post-a-new-public-repo-python-001.png
+last_modified_at: 2022-12-21 10:00:00+02:00
+og_publish_date: 2022-12-21 10:00:00+02:00
 tags:
-  - Awareness
-  - Python
-  - PowerShell
-  - CrossPlatform
-  - Linux
+- PowershellExtensions
+- Powershell
+- PowershellScript
+- WindowsSubsystem
+- PowerfulScriptingLanguage
+- MicrosoftEcosystem
+- ScriptingLanguage
+- PublicPythonProjects
+- Scripts
+- Python
+- PythonProgrammingLanguage
+- Toolkit
+- Microsoft
+- Linux
+- MajorPlatforms
+title: A New Public GitHub Repository - Python
 toc: true
-toc_label: "Contents"
-toc_icon: "list-alt"
+toc_icon: list-alt
+toc_label: Contents
 ---
 
 First off, I am **still** a great fan of PowerShell. It is a very versatile and powerful scripting language that, ever since the '.NET Core revolution', works cross-platform as well. Awesome! Especially the tight integration to the Microsoft Cloud eco-system and the Windows OS is a 'no brainer' for me, professionally speaking.

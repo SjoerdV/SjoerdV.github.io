@@ -1,32 +1,47 @@
 ---
-title: "Sharing is caring! Or taking your next step toward better SaaS Governance and External Identity Management for Microsoft 365 - Part 3 of 3"
-date: 2020-07-27T10:00:00+02:00
-last_modified_at: 2020-07-27T10:00:00+02:00
-header:  
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/sharing-is-caring-part3-3-001.png
 categories:
-  - blog
+- blog
+date: 2020-07-27 10:00:00+02:00
+header:
+  og_image: /assets/images/sharing-is-caring-part3-3-001.png
+last_modified_at: 2020-07-27 10:00:00+02:00
 tags:
-  - InformationManagement
-  - IdentityManagement
-  - DataGovernance
-  - MicrosoftTeams
-  - SharingIsCaring
-  - AzureAD
-  - AzureADB2B
-  - ConditionalAccess
-  - MCAS
-  - Microsoft365
-  - AzureDevOps
-  - AzurePipelines
-  - YAML
-  - PlatformOps
-  - PlatformAsCode
-  - StarterKit
-  - PowerShell
-  - PnP
+- AzureAdRole
+- ExternalAccounts
+- AzureAd
+- AzureB2B
+- AzureAdServices
+- ExternalUsers
+- AzureAdUsersBlade
+- AzureAdEcosystems
+- ExternalAccount
+- AzureAdUserBlade
+- ExternalSharing
+- ExternalUserAccountObject
+- ExternalParties
+- AzureServices
+- ExternalIdentities
+- InformationManagement
+- IdentityManagement
+- DataGovernance
+- MicrosoftTeams
+- SharingIsCaring
+- AzureAD
+- ConditionalAccess
+- MCAS
+- Microsoft365
+- AzureDevOps
+- AzurePipelines
+- YAML
+- PlatformOps
+- PlatformAsCode
+- StarterKit
+- PowerShell
+- PnP
+title: Sharing is caring! Or taking your next step toward better SaaS Governance and
+  External Identity Management for Microsoft 365 - Part 3 of 3
 ---
+
 This is the third and final part of a three part blog series, building on the premise to open up your Microsoft 365 Cloud Service tenant to External Parties. This third part will describe the *managing the life cycle* of external identities making use of the 'PaC Starter Kit' I provided in part 2.
 
 The [first part][1] described deciding on *the level* of 'external sharing' your organization cares to embrace.

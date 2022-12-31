@@ -1,32 +1,46 @@
 ---
-title: "Sharing is caring! Or taking your next step toward better SaaS Governance and External Identity Management for Microsoft 365 - Part 2 of 3"
-date: 2020-07-20T10:00:00+02:00
-last_modified_at: 2020-07-20T10:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/sharing-is-caring-part2-3-001.png
 categories:
-  - blog
+- blog
+date: 2020-07-20 10:00:00+02:00
+header:
+  og_image: /assets/images/sharing-is-caring-part2-3-001.png
+last_modified_at: 2020-07-20 10:00:00+02:00
 tags:
-  - InformationManagement
-  - IdentityManagement
-  - DataGovernance
-  - MicrosoftTeams
-  - SharingIsCaring
-  - AzureAD
-  - AzureADB2B
-  - ConditionalAccess
-  - MCAS
-  - Microsoft365
-  - AzureDevOps
-  - AzurePipelines
-  - YAML
-  - PlatformOps
-  - PlatformAsCode
-  - StarterKit
-  - PowerShell
-  - PnP
+- ExternalSharing
+- ConfigurationChanges
+- MicrosoftSaasConfiguration
+- CloudServiceTenant
+- CompanySettings
+- MicrosoftCloud
+- MicrosoftEcosystem
+- CloudServiceDeployment
+- PracticesInitiative
+- NecessarySettings
+- MicrosoftCloudAppSecurity
+- OrganizationalItPolicies
+- Documentation
+- InformationManagement
+- IdentityManagement
+- DataGovernance
+- MicrosoftTeams
+- SharingIsCaring
+- AzureAD
+- AzureB2B
+- ConditionalAccess
+- MCAS
+- Microsoft365
+- AzureDevOps
+- AzurePipelines
+- YAML
+- PlatformOps
+- PlatformAsCode
+- StarterKit
+- PowerShell
+- PnP
+title: Sharing is caring! Or taking your next step toward better SaaS Governance and
+  External Identity Management for Microsoft 365 - Part 2 of 3
 ---
+
 This is the second part of a three part blog series, building on the premise to open up your Microsoft 365 Cloud Service tenant to External Parties. This second part will describe the *method* of applying the configuration you and your organization decided on.
 
 The [first part][1] described deciding on *the level* of 'external sharing' your organization cares to embrace.
@@ -37,9 +51,9 @@ So you have decided to take control of External Sharing. Now it is time to consi
 
 At first, you might be tempted to change the necessary settings through the GUI, Microsoft has so graciously provided, and then documenting that change in some large document filled with screenshots and reference links? Consider the following:
 
-1. Isn't a GUI built for browsing, quickly gaining insight and maybe even change a limited, foreseeable and predictable amount of configuration? In this day and age should you really be using it to configure the vast amount of settings that could have its location in the GUI changed without notice? Their goes your carefully organized ever expanding 'Settings Word document'.
+1. Isn't a GUI built for browsing, quickly gaining insight and maybe even change a limited, foreseeable and predictable amount of configuration? In this day and age should you really be using it to configure the vast amount of settings that could have its location in the GUI changed without notice? Their goes your carefully organized ever expanding 'All Our Company Settings' Word document.
 1. Haven't you ever made a mistake while clicking through the GUI? Of course quickly trying to undo what you did, but is rollback even possible? Who will know or even find the specific setting you changed?
-1. There are tens or maybe hundreds of thousands of settings in the Microsoft 365 ecosystem. Writing down all those settings in 'a large Settings Word document' and effectively trying to duplicate what was is already configured doesn't seem a very efficient and error prone.
+1. There are tens or maybe hundreds of thousands of settings in the Microsoft 365 ecosystem. Writing down all those settings in a large 'All Our Company Settings' Word document and effectively trying to duplicate what was is already configured doesn't seem a very efficient and error prone.
 1. How to document the settings that are not exposed through a GUI? You'll probably have to copy paste some line of code inside the document as well.
 
 To keep track of all settings configured in Microsoft SaaS services and making sure they are applied you need to consider [PaC][2]. Additionally you need to consider having a single authorized and trusted pipeline that has the necessary (manual) 'gates' or 'approvals' configured which will deploy your configuration over and over again after each validated change. Continuously! Especially in a Microsoft ecosystem where you already have your identities in the cloud it is only logical to use the power of [Azure Pipelines][3][^1] for this purpose.

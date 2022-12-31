@@ -1,34 +1,45 @@
 ---
-title: "A little less conspicuous - Part 2: The DNS Sinkhole"
-date: 2021-09-26T12:00:00+02:00
-last_modified_at: 2021-09-26T12:00:00+02:00
-og_publish_date: 2021-09-26T12:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/screen20210925005.png
 categories:
-  - blog
+- blog
+date: 2021-09-26 12:00:00+02:00
+header:
+  og_image: /assets/images/screen20210925005.png
+last_modified_at: 2021-09-26 12:00:00+02:00
+og_publish_date: 2021-09-26 12:00:00+02:00
 tags:
-  - Marketing
-  - SurveillanceCapitalism
-  - Awareness
-  - Security
-  - Privacy
-  - Anonymity
-  - HyperV
-  - DietPi
-  - DNS
-  - Pi-hole
-  - DNSMasq
-  - Unbound
-  - DoT
-  - DNS-over-TLS
+- Pihole
+- BestPiholeBlocklists
+- HoleDnsSinkhole
+- DnsSinkhole
+- ObscureDnsTraffic
+- OwnDnsPi
+- PiholeAdminSite
+- Blacklists
+- Fqdns
+- OnionRouter
+- DnsSinkholeMachine
+- MaliciousActors
+- SecureDns
+- Dns
+- Marketing
+- SurveillanceCapitalism
+- Awareness
+- Security
+- Privacy
+- Anonymity
+- HyperV
+- DietPi
+- DNSMasq
+- Unbound
+- DoT
+- DNS-over-TLS
+title: 'A little less conspicuous - Part 2: The DNS Sinkhole'
 variables:
-  ServerName1: DNS-V1-01
-  ServerIP1: 192.168.0.50
+  DNSHostName1: pihole.mydomain.local
   ExistingADDomain: mydomain.local
   ExistingADDomainDNSServer: 192.168.0.10
-  DNSHostName1: pihole.mydomain.local
+  ServerIP1: 192.168.0.50
+  ServerName1: DNS-V1-01
 ---
 
 This is a follow-up article for [A little less conspicuous - Part 1: Introduction][1]. Please read that first, if you came here through a direct link.

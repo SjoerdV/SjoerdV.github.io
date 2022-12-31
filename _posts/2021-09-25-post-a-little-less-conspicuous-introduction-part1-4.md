@@ -1,27 +1,39 @@
 ---
-title: "A little less conspicuous - Part 1: Introduction"
-date: 2021-09-25T12:00:00+02:00
-last_modified_at: 2021-09-25T12:00:00+02:00
-og_publish_date: 2021-09-25T12:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/a-little-less-conspicuous-introduction-part1-4-001.png
 categories:
-  - blog
+- blog
+date: 2021-09-25 12:00:00+02:00
+header:
+  og_image: /assets/images/a-little-less-conspicuous-introduction-part1-4-001.png
+last_modified_at: 2021-09-25 12:00:00+02:00
+og_publish_date: 2021-09-25 12:00:00+02:00
 tags:
-  - Marketing
-  - SurveillanceCapitalism
-  - Awareness
-  - Security
-  - Privacy
-  - Anonymity
-  - HyperV
-  - DietPi
-  - Pihole
-  - Unbound
-  - Tor
-  - Privoxy
+- OwnDnsPihole
+- GooglesServers
+- ObscureDnsTraffic
+- Dns
+- PowerfulDnsService
+- SecureDns
+- DnsTraffic
+- GoogleDnsServerForwarders
+- DnsSinkhole
+- RemoteDomainNameSystemResolution
+- DnsData
+- Ssl
+- Marketing
+- SurveillanceCapitalism
+- Awareness
+- Security
+- Privacy
+- Anonymity
+- HyperV
+- DietPi
+- Pihole
+- Unbound
+- Tor
+- Privoxy
+title: 'A little less conspicuous - Part 1: Introduction'
 ---
+
 On the very day our caretaker Dutch cabinet mandated the obligatory use of corona passports (CoronaCheck) in almost all places of leisure and large public gatherings, I decided to write something to inspire anyone to be a little less conspicuous in our day-to-day digital life and to make an effort to know what's going on. It really wouldn't harm you, or anyone for that matter and makes just plain sense.
 
 "Why?" You may ask. For one, the war on who gets to gather and analyze your PII in the most effective and creative ways possible, is still going strong. One of the latest moves by Google is to try and make all your initial web requests initially go through their own DNS servers (aka the 'internet phone book'). These servers are used by anyone who would like to match a FQDN like 'www.google.com' with its IP address '142.250.xxx.xxx'. In other words everybody uses this phone book! Initially an updated Chrome browser exposed a new DNS-over-HTTPS (DoH) setting, actually named rather inviting 'Secure DNS'. This setting was enabled by default, using the setting to use Googles servers of course. While it actually is a safer and more private way to handle this kind of traffic as you are effectively not leaking any 'phone book' requests to your ISP, it also enables Google to monopolize the DNS request handling business. Furthermore devices are being created (Google Stadia, Chromecast, Nest, etc.) that incorporate hardcoded Google DNS Server forwarders using the before mentioned DoH protocol. These devices will encapsulate (effectively hiding) this phone book traffic in regular HTTPS encrypted traffic on the network so they are not easily detectable by yourself or anyone else without doing some serious CPU intensive 'deep packet inspection'.

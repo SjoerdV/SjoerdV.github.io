@@ -8,17 +8,31 @@ header:
 categories:
   - blog
 tags:
-  - Marketing
-  - SurveillanceCapitalism
-  - Awareness
-  - Security
-  - Privacy
-  - Anonymity
-  - HyperV
-  - DietPi
-  - Tor
-  - Privoxy
-  - Proxy
+- TorProxy
+- TorHttpProxy
+- OwnTorProxy
+- TorTraffic
+- Tor
+- TorBrowser
+- TorUsageExample
+- TorContext
+- TorHttpProxyMachine
+- TorServices
+- TorSocks5Proxy
+- TorService
+- UseTorBrowser
+- NewTorProxySettings- 
+- Marketing
+- SurveillanceCapitalism
+- Awareness
+- Security
+- Privacy
+- Anonymity
+- HyperV
+- DietPi
+- Tor
+- Privoxy
+- Proxy
 variables:
   ServerName2: TOR-V1-01
   ServerIP2: 192.168.0.51

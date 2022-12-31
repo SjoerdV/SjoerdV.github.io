@@ -1,37 +1,48 @@
 ---
-title: "A little less conspicuous - Part 4: Obscuring DNS traffic"
-date: 2021-10-03T13:00:00+02:00
-last_modified_at: 2021-10-03T13:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/a-little-less-conspicuous-introduction-part1-4-001.png
 categories:
-  - blog
+- blog
+date: 2021-10-03 13:00:00+02:00
+header:
+  og_image: /assets/images/a-little-less-conspicuous-introduction-part1-4-001.png
+last_modified_at: 2021-10-03 13:00:00+02:00
 tags:
-  - Marketing
-  - SurveillanceCapitalism
-  - Awareness
-  - Security
-  - Privacy
-  - Anonymity
-  - HyperV
-  - DietPi
-  - DNS
-  - Pi-hole
-  - DNSMasq
-  - Unbound
-  - DoT
-  - DNS-over-TLS
-  - Tor
-  - Privoxy
-  - Proxy
+- ObscureDnsTraffic
+- TorProxy
+- DnsTraffic
+- OwnTorProxy
+- OwnDnsPi
+- PiHoleDnsServer
+- PowerfulDnsService
+- TorBrowser
+- TorNetwork
+- Tor
+- OwnTorSocks5Proxy
+- OnionRouter
+- DnsSinkhole
+- DnsLeak
+- Marketing
+- SurveillanceCapitalism
+- Awareness
+- Security
+- Privacy
+- Anonymity
+- HyperV
+- DietPi
+- DNS
+- Pihole
+- DNSMasq
+- Unbound
+- DoT
+- DNS-over-TLS
+- Privoxy
+title: 'A little less conspicuous - Part 4: Obscuring DNS traffic'
 variables:
-  ServerName1: DNS-V1-01
-  ServerIP1: 192.168.0.50
-  ServerName2: TOR-V1-01
-  ServerIP2: 192.168.0.51
   ExistingADDomain: mydomain.local
   ExistingADDomainDNSServer: 192.168.0.10
+  ServerIP1: 192.168.0.50
+  ServerIP2: 192.168.0.51
+  ServerName1: DNS-V1-01
+  ServerName2: TOR-V1-01
 ---
 
 This is the final follow-up article for [A little less conspicuous - Part 1: Introduction][1]. Please read that first, if you came here through a direct link.

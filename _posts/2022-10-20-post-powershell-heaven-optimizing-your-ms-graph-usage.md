@@ -1,25 +1,31 @@
 ---
-title: "PowerShell Heaven - Optimizing your Microsoft Graph Usage"
-date: 2022-10-20T10:00:00+02:00
-last_modified_at: 2022-10-21T10:00:00+02:00
-og_publish_date: 2022-10-20T12:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/post-powershell-heaven-optimizing-your-ms-graph-usage-001.png
 categories:
-  - blog
+- blog
+date: 2022-10-20 10:00:00+02:00
+header:
+  og_image: /assets/images/post-powershell-heaven-optimizing-your-ms-graph-usage-001.png
+last_modified_at: 2022-10-21 10:00:00+02:00
+og_publish_date: 2022-10-20 12:00:00+02:00
 tags:
-  - Awareness
-  - PowerShell
-  - Microsoft365
-  - MicrosoftTeams
-  - MicrosoftExchange
-  - AzureAD
-  - PnP
-  - PnPPowerShell
+- PowershellModuleEcosystem
+- PowershellModules
+- PowershellModule
+- AzPowershellModule
+- PnPPowershellModule
+- PowershellSolutions
+- Powershell
+- PowerfulScriptingLanguage
+- MicrosoftGraph
+- MicrosoftGraphPowershellSdk
+- CoreLanguage
+- NumerousModules
+- ManagementModules
+- ModuleMaintainers
+- Scripts
+title: PowerShell Heaven - Optimizing your Microsoft Graph Usage
 toc: true
-toc_label: "Contents"
-toc_icon: "list-alt"
+toc_icon: list-alt
+toc_label: Contents
 ---
 
 First off, I am a great fan of PowerShell. It is a very versatile and powerful scripting language that, ever since the '.NET Core revolution', works cross-platform as well. Awesome!

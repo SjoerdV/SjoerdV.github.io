@@ -1,31 +1,34 @@
 ---
-title: "The Current State of 'Password-less' in the Microsoft Cloud"
-date: 2022-10-11T10:00:00+02:00
-last_modified_at: 2022-10-11T10:00:00+02:00
-og_publish_date: 2022-10-11T12:00:00+02:00
-header:
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/post-the-current-state-of-passwordless-in-the-ms-cloud-001.png
 categories:
-  - blog
+- blog
+date: 2022-10-11 10:00:00+02:00
+header:
+  og_image: /assets/images/post-the-current-state-of-passwordless-in-the-ms-cloud-001.png
+last_modified_at: 2022-10-11 10:00:00+02:00
+og_publish_date: 2022-10-11 12:00:00+02:00
 tags:
-  - Awareness
-  - Security
-  - Privacy
-  - Microsoft365
-  - MicrosoftTeams
-  - MicrosoftExchange
-  - AzureAD
-  - MFA
-  - Passwordless
-  - WindowsHello
-  - MicrosoftAuthenticatorApp
-  - FIDO2
-  - CBA
-  - Intune
+- Security
+- Privacy
+- TraditionalPassword
+- Passwords
+- Password
+- AuthenticationConundrums
+- Authentication
+- SecondAuthenticationFactor
+- MicrosoftAuthenticatorApp
+- AuthenticationSequence
+- Passwordless
+- MultiFactorAuthentication
+- Microsoft365
+- MicrosoftCloudSecurity
+- LatestHackingTechnique
+- AuthenticationMethod
+- ComputerSecurity
+- Phishing
+title: The Current State of 'Password-less' in the Microsoft Cloud
 toc: true
-toc_label: "Contents"
-toc_icon: "list-alt"
+toc_icon: list-alt
+toc_label: Contents
 ---
 
 'Password-less' is the new buzzword in 'Microsoft Cloud Security' land.  

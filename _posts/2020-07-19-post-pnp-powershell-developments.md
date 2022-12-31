@@ -1,23 +1,38 @@
 ---
-title: "2020-07: Upcoming PnP PowerShell developments and recommendations"
-date: 2020-07-19T14:00:00+02:00
-last_modified_at: 2020-07-19T14:00:00+02:00
-header:  
-  # image: /assets/images/header-banner.png
-  og_image: /assets/images/pnp-powershell.png
 categories:
-  - blog
+- blog
+date: 2020-07-19 14:00:00+02:00
+header:
+  og_image: /assets/images/pnp-powershell.png
+last_modified_at: 2020-07-19 14:00:00+02:00
 tags:
-  - Microsoft365
-  - PnP
-  - PowerShell
-  - PowerShell 7
-  - .NET
-  - MicrosoftGraph
-  - AzureAD
-  - AppOnly
-  - Automation
+- UpcomingPnpPowershellDevelopments
+- PnpPowershellInitiative
+- OnPremisesPnpPowershellModules
+- SingleMicrosoftGraphApi
+- PnpPowershellModules
+- PowershellModuleDevelopmentInitiative
+- PnpPowershellModule
+- MicrosoftGraphFunctionality
+- PnpPowershell
+- AzureAdEcosystems
+- AzureAdServices
+- CloudApiDevelopments
+- MsGraphDevelopments
+- AzureAdApp
+- MicrosoftServices
+- Microsoft365
+- PnP
+- PowerShell
+- PowerShell7
+- DotNet
+- MicrosoftGraph
+- AzureAD
+- AppOnly
+- Automation
+title: '2020-07: Upcoming PnP PowerShell developments and recommendations'
 ---
+
 ## Upcoming PnP PowerShell developments
 
 At the moment (July 2020), the large variety of Microsoft Services in the Microsoft 365 ecosystem require a lot of separate modules. However, work is ongoing at Microsoft to unify the desired Microsoft 365 and Azure AD operations spanning multiple (if not all?) services in a single Microsoft Graph API. The [PnP PowerShell][1][^1] module is using these MS Graph developments to provide a 'one module solution' and is already equipped to make use of the Graph API. Recently some interesting [Microsoft Graph-based, Teams specific cmdlets][2] were added as well. Great stuff!
