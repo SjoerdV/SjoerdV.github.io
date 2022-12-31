@@ -50,7 +50,7 @@ Tested on:
 ** Python3: 3.9.5
 
 Example:
-add_keyphrases_to_post.py -i /home/user/full_path_to_jekyll_site/_posts/2022-12-21-post-my-post.md
+add_keyphrases_to_jekyll_blog_post.py -i "/home/user/full_path_to_jekyll_site/_posts/2022-12-21-post-my-post.md"
 This will start the process of adding keywords to the YAML frontmatter of the post.
 """
 
@@ -94,14 +94,14 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"hi:",["help","in="])
     except getopt.GetoptError:
-        print ('add_keyphrases_to_post.py -i <input_absolute_file_path>')
+        print ('add_keyphrases_to_jekyll_blog_post.py -i <input_absolute_file_path>')
         sys.exit(2)
     if not opts:
-        print ('add_keyphrases_to_post.py -i <input_absolute_file_path>')
+        print ('add_keyphrases_to_jekyll_blog_post.py -i <input_absolute_file_path>')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print ('add_keyphrases_to_post.py -i <input_absolute_file_path>')
+            print ('add_keyphrases_to_jekyll_blog_post.py -i <input_absolute_file_path>')
             sys.exit()
         elif opt in ("-i", "--in"):
             try:

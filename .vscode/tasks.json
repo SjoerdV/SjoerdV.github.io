@@ -33,7 +33,7 @@
     {
       "label": "add_keywords",
       "type": "shell",
-      "command": "python3 add_keyphrases_to_post.py -i \"${file}\"",
+      "command": "python3 add_keyphrases_to_jekyll_blog_post.py -i \"${file}\"",
       "options": {
         "cwd": "${workspaceFolder}/.vscode/scripts"
       },
