@@ -77,12 +77,12 @@ First off, read all the documentation on embedding the python script `add_keyphr
 
 I use VSCode as an authoring tool for these posts. The cool thing about VSCode is that you can make it exactly fit your specific workflow by using the built-in 'Tasks' and 'Keyboard Shortcut' functions.
 
-The repository with the folder `add_keyphrases_to_jekyll_blog_post` contains the `tasks.json` and `keybindings.json` files that will allow you to execute the Task (ie. executing the python script) using a Keyboard Shortcut. In this case I have configured the CTRL+SHIFT+F10 key combination.  
+The repository with the folder `add_keyphrases_to_jekyll_blog_post` has an `nlp.json` file that contains the configuration for the main NLP tools. Furthermore the `tasks.json` and `keybindings.json` files will allow you to execute the Task (ie. executing the python script) using a Keyboard Shortcut in VSCode. In this case I have configured the CTRL+SHIFT+F10 key combination.  
 First copy and paste the text of the keybinding JSON bit into your own 'User' key bindings JSON file. Then you will need to have a post active in the VSCode editor when using the key combination.
 
 ## Taste the NLP magic sauce
 
-The python script that is launched, `add_keyphrases_to_jekyll_blog_post.py`, employs state-of-the-art, offline, NLP python packages like [KeyBERT, using the default model][2] called 'all-MiniLM-L6-v2', which is being fed by a 'vectorizer' using an user-defined [Spacy language model for KeyphraseVectorizers][3] and the number of key phrases it should deliver.  
+The python script that is launched, `add_keyphrases_to_jekyll_blog_post.py`, employs state-of-the-art, offline, NLP python packages like [KeyBERT, using the default model][2] called 'all-MiniLM-L6-v2', which is being fed by a 'vectorizer' using a [Spacy language model for KeyphraseVectorizers][3]. This and the number of key phrases it should deliver are configured in the `nlp.json` file.  
 That all sounds pretty technical, but it just means that in a few lines of python code, you can feed the text content of your blog to a NLP model and the output will be a user-defined number of key phrases representing your post.  
 Included in the mix is the application of a specific HTML scraping library called 'Beautiful Soup', which is excellent for scraping and tidying up textual input.
 
@@ -101,7 +101,7 @@ I want to stress that without these free/freemium sources I wouldn't have come u
 <!-- Begin FootNotes -->
 
 [^1]: Microsoft 365, formerly Office 365, is a line of subscription services offered by Microsoft which adds to and includes the Microsoft Office product line. The brand was launched on July 10, 2017, for a superset of Office 365 with Windows 10 Enterprise licenses and other cloud-based security and device management products.
-[^2]: KeyBert: https://github.com/MaartenGr/KeyBERT/blob/master/LICENSE
+[^2]: KeyBERT: https://github.com/MaartenGr/KeyBERT/blob/master/LICENSE
 [^3]: KeyphraseVectorizers: https://github.com/TimSchopf/KeyphraseVectorizers/blob/master/LICENSE
 [^4]: python-beautifulsoup: https://github.com/akalongman/python-beautifulsoup/blob/master/LICENSE
 
