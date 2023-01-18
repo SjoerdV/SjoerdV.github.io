@@ -58,10 +58,11 @@ Why, you ask? Well...
 The current closed nature of Teams software development is frustrating. The community is not being heard enough. Even if the reader disagrees with the previous statement then you must agree that the level of influence the community has on product development is negligible and it is clear that internal goals and backlogs are prioritized over what the community wants. For instance, decommissioning the good old UserVoice sites (replacing it with a lesser [Feedback Portal][10] and thus masking the true creation dates of entries in the old platform) does not make me forget the amount of useful functionality proposed by the community which just wasn't picked up... ever! Some entries being created in 2017 (i.e. 6 years ago), upvoted in an incredible manner, just to never be prioritized by Microsoft product teams. If that isn't a continuous 'slapping in the face' of the community, I don't know what is.  
 So fact is Microsoft do **talk** a lot about listening to the community but **do not really act** on it. Adopting FOSS for the Teams product is a sure strategy to be listening very closely!
 
-  ![UserVoice through Way Back Machine](/assets/images/post-my-wish-list-for-microsoft-teams-in-2023-002.png)
-  *UserVoice (decommissioned throughout 2021) through Way Back Machine*
-  {: style="border: 1px solid grey; margin-left: 20px; padding:16px; font-size:10px"}
+![UserVoice through Way Back Machine](/assets/images/post-my-wish-list-for-microsoft-teams-in-2023-002.png)
+*UserVoice (decommissioned throughout 2021) through Way Back Machine*
+{: style="border: 1px solid grey; margin-left: 20px; padding:16px; font-size:10px"}
 
+{:start="4"}
 4. Since having the Commercial license of the product would be the only way to:
    1. have access to **enterprise support**;
    2. have Microsoft **host the service** for you as a SaaS offering;
