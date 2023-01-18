@@ -142,7 +142,7 @@ Microsoft Purview (The Microsoft 365[^1] Compliance Layer, with a lot of back-en
 ## Conclusion
 
 Personally I think all the paragraphs above deserve far more attention than simply 'continuously adding new features to the product that, let's face it, nobody asked for'.  
-Take a step back, look at the product and fix the parts that were neglected and go add stuff the community explicitly asked for.
+Take a step back, look at the product and fix the parts that were neglected and go add stuff the community explicitly asked for and most importantly: **communicate** why certain highly demanded features will probably never make it in the product. The community I know will be very understanding if given the proper reasons why something 'can't be done'.
 
 I know I proposed a lot of fundamental changes to get Teams in a better shape, most of which require changes in perception from senior management. Nonetheless, you may or might not agree with any of what was written. If you want to share your opinion, feel free to do so in the comments.
 
