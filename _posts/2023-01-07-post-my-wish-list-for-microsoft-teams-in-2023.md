@@ -76,6 +76,8 @@ So fact is Microsoft do **talk** a lot about listening to the community but **do
 
 I would like to stress that I am NOT proposing making the Teams software free 'of charge', as I and a lot of companies would be prepared to pay for the hosted service run by a cloud provider at scale with enterprise support, also making reliability and uptime (Microsoft do have a great track record already) very much desired properties. So just to iterate, Microsoft can still make lots of money (as they should!) if this move was contemplated, but in a more healthy, sustainable, community friendly, truly connected, competitive and serviceable manner.
 
+**UPDATE 2023/01/31**: A good first step in doing something 'good' from a licensing point of view Microsoft could start to adopt and advocate the [Principles of Fair Software Licensing for Cloud Customers][13].
+
 ## Adopt an 'Omni-browser, Omni-OS, Omni-Arch compatibility' Policy for the Client
 
 No excuses anymore! Ditch the desktop apps and dedicated mobile apps if needed to make room for this effort, but make 'it' work for Chromium (Chrome, Edge, Brave, etc.), Webkit (Safari) and Gecko (Firefox), on all OS-es (Windows, MacOS, Linux and iOS/Android), on all major architectures (x86, ARM). OK, RISC-V may be skipped ;-).
@@ -176,5 +178,6 @@ I know I proposed a lot of fundamental changes to get Teams in a better shape, m
 [10]: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
 [11]: https://petri.com/m365-changelog-wiki-retirement-and-the-future-of-note-taking-in-teams-channels/
 [12]: https://github.com/MicrosoftDocs/office-docs-powershell/issues/8121
+[13]: https://www.fairsoftware.cloud/principles/
 
 <!-- End References -->
