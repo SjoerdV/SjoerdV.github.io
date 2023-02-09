@@ -68,12 +68,21 @@ html {
     font-size: 18px; // change to whatever
   }
 }
+/*
+Make the width of an archive aggregation layout page 100%. Fixes Gridview.
+*/
 .layout--archive .archive {
   width: 100% !important;
 }
+/*
+Remove the sidebar in archive aggregation layout pages. Fixes Gridview.
+*/
 .layout--archive .sidebar {
   display:none;
 }
+/*
+Update background color for inline code segments
+*/
 .page__content :not(pre) > code {
   background: rgb(34, 102, 51) !important
 }
