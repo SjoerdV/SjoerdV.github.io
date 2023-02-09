@@ -74,3 +74,6 @@ html {
 .layout--archive .sidebar {
   display:none;
 }
+.page__content :not(pre) > code {
+  background: rgb(34, 102, 51) !important
+}
