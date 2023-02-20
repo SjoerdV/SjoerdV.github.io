@@ -5,7 +5,8 @@
   "cSpell.language": "en,nl",
   "spellright.suggestionsInHints": false,
   "spellright.language": [
-    "en_US"
+    "en_US",
+    "nl"
   ],
   "spellright.documentTypes": [
     "latex",
