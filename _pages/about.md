@@ -26,20 +26,24 @@ title: "About"
 
 Hi I'm <phoneme alphabet="ipa" ph="/ʃuɝd/ ">Sjoerd</phoneme> <input type="button" value="&sung;" onclick="javascript:meSpeak.speak('Sjoerd', { amplitude: 100, wordgap: 0, pitch: 65, speed: 150, variant: 'f3' });return false" />. Blogger ;-)
 
+{{ site.description }}
+
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <div>
   <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="f4lc0n99" style="float:left;padding-right:5px"><a class="LI-simple-link" href='https://nl.linkedin.com/in/f4lc0n99?trk=profile-badge'>Sjoerd de Valk</a></div>
 </div>
 <br />
 <div>
-  <div style="font-size:14px">#CloudProductivity | #MicrosoftCloud <br />
-  <b>#ModernWorkplace</b> | #SaaS | #iPaaS <br />
+  <div style="font-size:14px">
+  <b>#CloudProductivity</b> | #MicrosoftCloud <br />
+  #ModernWorkplace | #SaaS | #iPaaS <br />
   <b>#Microsoft365</b> | <b>#AzureAD</b> <br />
   <b>#MicrosoftTeams</b> | <b>#SharePoint</b> | #OneDrive <br />
   <i>#Security</i> | <i>#Compliance</i> <br />
   <b>#AzureDevOps</b> | <b>#VisualStudioCode</b> | <b><code>#PowerShell</code></b> <br />
-  <code>#ProcessAutomation</code> | #StrategyAdvice | <i>#ITGovernance</i> <br />
-  <i>#ArchitectureDesign</i> | #Portal | #Intranet <br />
+  #FOSS | #GNU/Linux | <code>#Python</code> <br />
+  #StrategyAdvice | <i>#ITGovernance</i> | <code>#ProcessAutomation</code><br />
+  <i>#InfoArchitectureDesign</i> | #Portal | #Intranet <br />
   <code>#PowerPlatform</code> | #Workflow | #Forms | <b>#PowerApps</b> | <b>#PowerAutomate</b> <br />
   #DocumentManagement | #EnterpriseSearch<br />
   #ECM | #WCM | #TaxonomyDevelopment
