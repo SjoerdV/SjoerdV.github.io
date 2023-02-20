@@ -26,6 +26,7 @@ title: The Greatest Options to Beat MFA Fatigue
 toc: true
 toc_icon: list-alt
 toc_label: Contents
+toc_sticky: true
 ---
 
 Lately, a lot has been said about the phenomenon called 'MFA fatigue'. This method of gaining access to someone's account (we will focus on (Microsoft 365[^1] Work/School accounts) plays on the tendency of people to be 'done with it' which will make them press that 'Approve' button in their authenticator apps at some point. This is especially the case where the Microsoft Authenticator App 'push notifications' (without number matching) feature has been configured. Attackers only have to know the sign-in name, which usually is the same as their email address, to start annoying people. And the target only has to press the Approve button on the MFA prompt. Things are different when:

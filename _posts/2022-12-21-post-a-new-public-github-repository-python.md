@@ -26,6 +26,7 @@ title: A New Public GitHub Repository - Python
 toc: true
 toc_icon: list-alt
 toc_label: Contents
+toc_sticky: true
 ---
 
 First off, I am **still** a great fan of PowerShell. It is a very versatile and powerful scripting language that, ever since the '.NET Core revolution', works cross-platform as well. Awesome! Especially the tight integration to the Microsoft Cloud eco-system and the Windows OS is a 'no brainer' for me, professionally speaking.

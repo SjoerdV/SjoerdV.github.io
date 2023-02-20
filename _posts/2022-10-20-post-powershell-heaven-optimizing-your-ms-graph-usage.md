@@ -26,6 +26,7 @@ title: PowerShell Heaven - Optimizing your Microsoft Graph Usage
 toc: true
 toc_icon: list-alt
 toc_label: Contents
+toc_sticky: true
 ---
 
 First off, I am a great fan of PowerShell. It is a very versatile and powerful scripting language that, ever since the '.NET Core revolution', works cross-platform as well. Awesome!

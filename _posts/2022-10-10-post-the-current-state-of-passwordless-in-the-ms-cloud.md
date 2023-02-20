@@ -29,6 +29,7 @@ title: The Current State of 'Password-less' in the Microsoft Cloud
 toc: true
 toc_icon: list-alt
 toc_label: Contents
+toc_sticky: true
 ---
 
 'Password-less' is the new buzzword in 'Microsoft Cloud Security' land.  

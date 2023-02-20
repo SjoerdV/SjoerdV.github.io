@@ -29,6 +29,7 @@ title: Adding Key Phrases to Jekyll Blog Posts - The Offline Edition
 toc: true
 toc_icon: list-alt
 toc_label: Contents
+toc_sticky: true
 ---
 
 Now OpenAI's ChatGPT3 is the hottest ticket in town, it's about time to call it what it is:

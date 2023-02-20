@@ -34,6 +34,7 @@ title: My Wish List for Microsoft Teams in 2023
 toc: true
 toc_icon: list-alt
 toc_label: Contents
+toc_sticky: true
 ---
 
 With this post I will propose some ideas on 'making Teams better' in 2023. The paragraphs below are 'prioritized', so first things first. I know most of this post goes against everything the 'current age' commercial and productivity drone (note the gender neutrality here even including artificial lifeforms, patting myself on the back) is engaged in. But without poking the bear a bit, what else is there but moronic thoughtless complacency.

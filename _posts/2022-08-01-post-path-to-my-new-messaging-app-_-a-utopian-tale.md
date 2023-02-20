@@ -37,6 +37,7 @@ title: The path to my new messaging app - A Utopian tale
 toc: true
 toc_icon: list-alt
 toc_label: Contents
+toc_sticky: true
 ---
 
 While I have to start this post with some alarming observations about the state of our world, I also aim to provide some ideas to try and tackle the very big challenges of our time. These musings may sound radical and are indeed Utopian in nature and might not even be 'novel' when regarded separately. But hey, mainly I just need to write something down, for Pete's sake.
