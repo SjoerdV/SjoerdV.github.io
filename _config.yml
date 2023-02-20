@@ -19,7 +19,8 @@ url: https://www.spdevalk.nl
 og_image: /assets/images/Logo.png
 description: >- # this means to ignore newlines until "baseurl: "
   This site represents Sjoerd's open source blog initiative.
-  I will mainly blog about Microsoft Tech and Powershell code, but maybe something else entirely...
+  I will mainly write about Microsoft and 'FOSS' Technology subjects. But maybe I'll present you with something else entirely...
+  Some posts will contain code (like PowerShell or Python).
   Enjoy!
 github_username: SjoerdV
 minimal_mistakes_skin: dark
