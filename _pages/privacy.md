@@ -12,7 +12,7 @@ toc_sticky: true
 
 SP de Valk Consultancy does not collect data about your use of this website. The hosting party (GitHub) has its own [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){:target="_blank"}.
 
-Data you submit voluntary through, for example, Contact Forms on this site are not shared with any third party by xxx. The hosting party (Microsoft) have their own [privacy statement](https://privacy.microsoft.com/en-us/privacystatement){:target="_blank"}.
+Data you submit voluntary through, for example, Contact Forms on this site are not shared with any third party by SP de Valk Consultancy. The hosting party (Microsoft) have their own [privacy statement](https://privacy.microsoft.com/en-us/privacystatement){:target="_blank"}.
 
 ### Cloud Systems
 
