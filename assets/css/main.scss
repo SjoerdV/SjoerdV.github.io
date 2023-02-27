@@ -86,3 +86,7 @@ Update background color for inline code segments
 .page__content :not(pre) > code {
   background: rgb(34, 102, 51) !important
 }
+
+.highlight .se {
+  color: #88a261
+}
