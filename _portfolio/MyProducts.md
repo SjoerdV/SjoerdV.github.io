@@ -12,12 +12,12 @@ toc_icon: "list-alt"
 
 ## Teams Provisioning Tool
 
-![Teams Provisioning Tool](/assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-TeamsProvisioningTool.png)
+![Teams Provisioning Tool](/assets/docs/20230710-SPDeValkConsultancyBV-TPT-ProductSheet.png)
 
 <a href="/about/#contact" class="btn btn--success">Contact Me</a>
 
 ## Guest Lifecyle Management Tool
 
-![Guest Lifecyle Management Tool](/assets/docs/SPdeValkConsultancyBV-Producten-Datasheet-GuestLifeCycleManagementTool.png)
+![Guest Lifecyle Management Tool](/assets/docs/20230710-SPDeValkConsultancyBV-GLMT-ProductSheet.png)
 
 <a href="/about/#contact" class="btn btn--success">Contact Me</a>
