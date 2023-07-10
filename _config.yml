@@ -84,7 +84,7 @@ plugins:
 author:
   name   : "Sjoerd de Valk"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Clear, Swift, Analytical, Pragmatic and Safe, Can-Do - preferably Automated. That's just who I am."
+  bio    : "Clear, Swift, Analytical, Pragmatic and Safe, Can-Do - preferably Automated."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
