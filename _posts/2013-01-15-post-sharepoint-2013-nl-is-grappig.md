@@ -7,7 +7,7 @@ tags:
   - SharePoint
   - SharePoint 2013
   - Funny
-comments: false
+comments: true
 ---
 ik denk dat er iemand veel lol gehad heeft...
 
