@@ -9,7 +9,6 @@ tags:
   - SharePoint
   - SharePoint 2013
   - Whitepaper
-comments: true
 ---
 These are what I considers great arguments for building a Nintex Workflow ROI case for your organization:
 

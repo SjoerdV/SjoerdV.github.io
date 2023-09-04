@@ -7,7 +7,6 @@ tags:
   - SharePoint
   - Apps
   - Store
-comments: true  
 ---
 I would like to repeat this post every quarter especially as more and better apps will be available is het SharePoint Store. In this post some of the Apps I think deserve some attention.
 
@@ -45,8 +44,8 @@ The main reason for writing this post is for you to know what's available out of
 
 1. ![](/assets/images/061813_1933_mytop10free4.png)
 
-    | Name                                                                     | User Redirect                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-    | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  |
+    | Name | User Redirect |
+    | ---- | ------------- ||
     | **Cloud Hosted** (Provider Hosted / Auto Hosted) / **SharePoint-hosted** | SharePoint-hosted                                                                                                                                                                                                                                                                                                                                                                                                                                       |
     | **Release Date**                                                         | March 2013                                                                                                                                                                                                                                                                                                                                                                                                                                              |
     | **Category**                                                             | IT/Admin                                                                                                                                                                                                                                                                                                                                                                                                                                                |
