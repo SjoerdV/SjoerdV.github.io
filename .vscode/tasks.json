@@ -12,13 +12,19 @@
         "isDefault": true
       },
       "isBackground": false,
-      "problemMatcher": ["$jekyll-error-watch", "$jekyll-warning-watch"]
+      "problemMatcher": [
+        "$jekyll-error-watch",
+        "$jekyll-warning-watch"
+      ]
     },
     {
       "label": "Build",
       "type": "shell",
       "command": "bundle exec jekyll build",
-      "problemMatcher": ["$jekyll-error", "$jekyll-warning"],
+      "problemMatcher": [
+        "$jekyll-error",
+        "$jekyll-warning"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true
@@ -28,7 +34,8 @@
       "label": "display_file",
       //"command": "${command:workbench.action.files.save}"
       "type": "shell",
-      "command": "echo ${file}"
+      "command": "echo ${file}",
+      "problemMatcher": []
     },
     {
       "label": "add_keywords",
@@ -38,7 +45,7 @@
         "cwd": "${workspaceFolder}/.vscode/scripts"
       },
       "presentation": {
-        "reveal": "never",
+        "reveal": "never  ",
         "focus": true
       }
     },
@@ -49,6 +56,18 @@
         "display_file",
         "add_keywords"
       ]
+    },
+    {
+      "label": "add_discussions_to_posts",
+      "type": "shell",
+      "command": "python3 auto_discussion_for_jekyl_blog_post.py",
+      "options": {
+        "cwd": "${workspaceFolder}/.vscode/scripts"
+      },
+      "presentation": {
+        "reveal": "never  ",
+        "focus": true
+      }
     }
   ]
 }
