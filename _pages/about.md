@@ -30,6 +30,24 @@ Hi I'm <phoneme alphabet="ipa" ph="/ʃuɝd/ ">Sjoerd</phoneme> <input type="butt
 
 <div>
   <div style="font-size:14px">
+  <b>#ProductivityCloud</b> | #PrivateCloud | #SelfHosting <br />
+  #EUCloud | #Europe | #IaaS <br />
+  <b>#FOSS</b> | <b>#Linux</b> | #GNU/Linux | #Debian <br />
+  <b><code>#Python</code></b> | <code>#Bash</code> | <b><code>#PowerShell</code></b> <br />
+  #ModernWorkplace | #Proxmox | <b>#Nextcloud</b> <br />
+  <b>#SharePoint</b> | #OneDrive | Migration <br />
+  <b>#AzureDevOps</b> | <b>#VisualStudioCode</b> <br />
+  <i>#Security</i> | <i>#Compliance</i> <br />
+  #StrategyAdvice | <i>#ITGovernance</i> | <code>#ProcessAutomation</code><br />
+  <i>#InfoArchitectureDesign</i> | #Portal | #Intranet <br />
+  #Workflow | #Forms <br />
+  #DocumentManagement | #EnterpriseSearch<br />
+  #ECM | #WCM | #TaxonomyDevelopment
+  </div>
+</div>
+<!--
+<div>
+  <div style="font-size:14px">
   <b>#CloudProductivity</b> | #MicrosoftCloud <br />
   #ModernWorkplace | #SaaS | #iPaaS <br />
   <b>#Microsoft365</b> | <b>#AzureAD</b> <br />
@@ -44,3 +62,4 @@ Hi I'm <phoneme alphabet="ipa" ph="/ʃuɝd/ ">Sjoerd</phoneme> <input type="butt
   #ECM | #WCM | #TaxonomyDevelopment
   </div>
 </div>
+-->
