@@ -3,11 +3,11 @@ categories:
 - blog
 date: 2025-03-24 19:00:00+01:00
 header:
-  og_image: /assets/images/post-giscus-for-comments-001.png
+  og_image: /assets/images/post-mastodon-for-comments-001.png
 last_modified_at: 2025-03-24 19:00:00+01:00
 og_publish_date: 2025-03-24 19:00:00+01:00
 comments:
-  id: 110645586336088202
+  id: 114220592581216421
   #host: mas.to
   #user: sjosjo
 tags:
