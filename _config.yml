@@ -30,16 +30,31 @@ mastodon:
   username: "@sjosjo@mas.to"
   url: https://mas.to/@sjosjo"
 
-repository: "sjoerdv/sjoerdv.github.io-comments" # "sjoerdv/sjoerdv.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
 comments:
-  provider: "giscus"
-  giscus:
-    repo_id: "R_kgDOKO0Gmg" # Shown during giscus setup at https://giscus.app
-    category_name: "Announcements" # Full text name of the category
-    category_id: "DIC_kwDOKO0Gms4CZDUH" # Shown during giscus setup at https://giscus.app
-    discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
-    theme: "dark_dimmed" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  provider: false # turn off Minimal Mistakes' default comment system
+  # your Mastodon host (the server where you have the Mastodon account):
+  host: mas.to
+  # vanity domain (optional); host will be used if omitted:
+  domain: spdevalk.nl
+  # your Mastodon username:
+  username: sjosjo
+  # API token to fetch more than 60 replies to any given blog post (optional):
+  #token: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  # verified users (optional):
+  #verified:
+  # - XY@XY.XY
+  # default id (serves as a fallback if no id is specified in front-matter):
+  id: 114220259572283463
+#repository: "sjoerdv/sjoerdv.github.io-comments" # "sjoerdv/sjoerdv.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+#comments:
+#  provider: "giscus"
+#  giscus:
+#    repo_id: "R_kgDOKO0Gmg" # Shown during giscus setup at https://giscus.app
+#    category_name: "Announcements" # Full text name of the category
+#    category_id: "DIC_kwDOKO0Gms4CZDUH" # Shown during giscus setup at https://giscus.app
+#    discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
+#    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
+#    theme: "dark_dimmed" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
 #comments:
 #  provider: "utterances"
 #  utterances:
@@ -146,7 +161,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: post
       author_profile: true
       read_time: true
       show_date: true
