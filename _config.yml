@@ -153,9 +153,11 @@ defaults:
         - title: "Role"
           # image: /assets/images/Logo.png
           # image_alt: "logo"
-          text: "Freelance Microsoft Cloud SaaS & iPaas Solution Consultant and FOSS aficionado"
+          text: "Freelance Cloud SaaS & iPaas Solution Consultant and FOSS aficionado"
         - title: "Responsibilities"
           text: "Giving it all to improve continuously."
+        - title: "Likes to do..."
+          text: "Migrations! Moving away from proprietary (cloud) platforms to Free and Open Source Software"
   # _posts
   - scope:
       path: ""
