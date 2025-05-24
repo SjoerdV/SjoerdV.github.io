@@ -1,31 +1,33 @@
 ---
 categories:
 - blog
+comments:
+  id: 114220608299561932
 date: 2025-03-24 19:00:00+01:00
 header:
   og_image: /assets/images/post-mastodon-for-comments-001.png
 last_modified_at: 2025-03-24 19:00:00+01:00
 og_publish_date: 2025-03-24 19:00:00+01:00
-comments:
-  id: 114220608299561932
-  #host: mas.to
-  #user: sjosjo
 tags:
-- GitHubPages
-- GitHub
-- TechnicalBlog
+- MastodonAccount
 - Blog
+- TechnicalBlog
+- BlogPost
+- MastodonPost
+- MastodonClientApp
+- BlogPosts
+- Activitypub
 - CommentsSystem
-- Mastodon
-- ActivityPub
 - Fediverse
+- Mastodon
+- FediverseCapabilities
+- FediverseAccount
+- BlogOwner
 - Discussions
-- Discussion
-- DeveloperPlatform
-- Comments
-- Visitors
-- PlatformCapabilities
-- Api
+- FediverseJourney
+- SocialNetworkingServices
+- DecentralizedSocialNetworking
+- SingleDiscussion
 title: Moving the comments system for this blog to Mastodon
 toc: true
 toc_icon: list-alt
