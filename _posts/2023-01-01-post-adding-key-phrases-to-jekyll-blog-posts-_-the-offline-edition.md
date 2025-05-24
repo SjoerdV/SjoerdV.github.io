@@ -37,7 +37,7 @@ toc_sticky: true
 
 Now OpenAI's ChatGPT3 is the hottest ticket in town, it's about time to call it what it is:
 
-An white guy in an over-priced suit, impersonating every bubble imaginable, continuously spuing utter fascist crap into the world without bothering to hide its blatant biases and presenting everything as 'The Truth'. I would not want to drink a beer with it if it was a person. I would want it incarcerated indefinitely.
+A white guy in an over-priced suit, impersonating every bubble imaginable, continuously spuing utter fascist crap into the world without bothering to hide its blatant biases and presenting everything as 'The Truth'. I would not want to drink a beer with it if it was a person. I would want it incarcerated indefinitely.
 
 So let us just appreciate a lot of the 'offline goodness' and 'limited scope' that thankfully still exists in the AI world and add just one more New Year's resolution: please stop feeding proprietary online AI monstrosities, like the one described earlier, because they are owned by insane, self-interested megalomaniacs, do not let the name '**Open**AI' fool you...  
 Strangely enough, those 'monstrosities' do have a lot in common with 'him' that bought Twitter not so long ago or 'the one' that thinks a metaverse represents a true utopia, IMHO.
