@@ -1,6 +1,8 @@
 ---
 categories:
 - blog
+comments:
+  id: 114563316554577872
 date: 2023-01-01 10:00:00+02:00
 header:
   og_image: /assets/images/post-adding-key-phrases-to-jekyll-blog-posts-_-the-offline-edition-001.png
@@ -20,7 +22,8 @@ tags:
 - OfflineEdition
 - ExcellentOpenSourceAlternatives
 - OpenSourceSoftwareMovement
-- UtterFascistCrap
+- InterestedMegalomaniacs
+- NlpMagicSauce
 - KeyPhrases
 - StaticPages
 - NaturalLanguageProcessing
