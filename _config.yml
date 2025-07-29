@@ -26,25 +26,26 @@ github_username: SjoerdV
 minimal_mistakes_skin: dark
 search: true
 
-mastodon:
-  username: "@sjosjo@mas.to"
-  url: https://mas.to/@sjosjo"
+#mastodon:
+#  username: "@sjosjo@mas.to"
+#  url: https://mas.to/@sjosjo"
 
-comments:
-  provider: false # turn off Minimal Mistakes' default comment system
-  # your Mastodon host (the server where you have the Mastodon account):
-  host: mas.to
-  # vanity domain (optional); host will be used if omitted:
-  domain: spdevalk.nl
-  # your Mastodon username:
-  username: sjosjo
-  # API token to fetch more than 60 replies to any given blog post (optional):
-  #token: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-  # verified users (optional):
-  #verified:
-  # - XY@XY.XY
-  # default id (serves as a fallback if no id is specified in front-matter):
-  id: 114220259572283463
+#comments:
+#  provider: false # turn off Minimal Mistakes' default comment system
+# your Mastodon host (the server where you have the Mastodon account):
+#  host: mas.to
+# vanity domain (optional); host will be used if omitted:
+#  domain: spdevalk.nl
+# your Mastodon username:
+#  username: sjosjo
+# API token to fetch more than 60 replies to any given blog post (optional):
+#token: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+# verified users (optional):
+#verified:
+# - XY@XY.XY
+# default id (serves as a fallback if no id is specified in front-matter):
+#  id: 114220259572283463
+
 #repository: "sjoerdv/sjoerdv.github.io-comments" # "sjoerdv/sjoerdv.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
 #comments:
 #  provider: "giscus"
@@ -55,11 +56,13 @@ comments:
 #    discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
 #    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
 #    theme: "dark_dimmed" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+
 #comments:
 #  provider: "utterances"
 #  utterances:
 #    theme: "github-dark" # "github-light"
 #    issue_term: "pathname"
+
 #comments:
 #  provider: "staticman_v2"
 #  staticman:
@@ -116,9 +119,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/f4lc0n99/"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://mas.to/@sjosjo"
+    #    - label: "Mastodon"
+    #      icon: "fab fa-fw fa-mastodon"
+    #      url: "https://mas.to/@sjosjo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SjoerdV"
@@ -128,9 +131,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/f4lc0n99/"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://mas.to/@sjosjo"
+    #    - label: "Mastodon"
+    #      icon: "fab fa-fw fa-mastodon"
+    #      url: "https://mas.to/@sjosjo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SjoerdV"
